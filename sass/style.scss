@@ -1,0 +1,700 @@
+/* Set all parents to full height */
+html, body, 
+.container,
+.cbp-fbscroller,
+.cbp-fbscroller section { 
+	height: 100%; 
+}
+
+@mixin horizontal-center() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+@mixin vertical-left() {
+  -webkit-box-pack: flex-start;
+  -moz-box-pack: flex-start;
+  -ms-flex-pack: flex-start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+@mixin vertical-right() {
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: flex-end;
+  -moz-box-pack: flex-end;
+  -ms-flex-pack: flex-end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+
+@mixin vertical-center() {
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background: #fff;
+	margin: 0 auto;
+	width: 997px;
+}
+
+#cbp-fbscroller {
+	position: relative;
+}
+/* The nav is fixed on the right side  and we center it by translating it 50% 
+(we don't know it's height so we can't use the negative margin trick) */
+.cbp-fbscroller > nav {
+	left: 0;
+	margin: 0 auto;
+	position: fixed;
+	right: 0;
+	top: 50%;
+	width: 953px;
+	/*z-index: 9999999;*/
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.cbp-fbscroller > nav a {
+	background: rgba(255,255,255,0.6);
+	display: block;
+	position: relative;
+	/*z-index: 9999999;*/
+	color: transparent;
+	width: 16px;
+	height: 16px;
+	outline: none;
+	margin: 25px 0;
+	border-radius: 50%;
+}
+
+.no-touch .cbp-fbscroller > nav a:hover {
+	background: rgba(255,255,255,1);
+	span {
+		color: #eee;
+		padding-left: 10px;
+	}
+}
+
+.cbp-fbscroller > nav a.cbp-fbcurrent {
+	background: #fff;
+}
+
+/* background-attachment does the trick */
+.cbp-fbscroller section {
+	position: relative;
+	background-position: top center;
+	background-repeat: no-repeat;
+	/*background-size: cover;*/
+	background-size: auto 100%;
+	/*background-size: 100% auto;*/
+}
+
+.no-touch .cbp-fbscroller section {
+	/*background-attachment: fixed;*/
+}
+
+.container {
+	/*background: url(../images/background.jpg);*/
+	background-size: 100% auto;
+	background-repeat: repeat;
+	height: 100%;
+	width: 997px;
+	margin: 0 auto;
+	section {
+		/*background: url(../images/background.jpg);*/
+		background-color: #A2A6A9;
+	}
+}
+
+#fbsection1 {
+	background-color: #A2A6A9;
+	background-image: url(../images/phase1-12.png);
+}
+
+#fbsection2 {
+	background-color: #A2A6A9;
+	background-image: url(../images/phase2-12.png);
+}
+
+#fbsection3 {
+	background-color: #A2A6A9;
+	background-image: url(../images/phase3-12.png);
+}
+
+#fbsection4 {
+	background-color: #A2A6A9;
+	background-image: url(../images/phase5-12.png);
+}
+
+#fbsection5 {
+	background-color: #A2A6A9;
+	background-image: url(../images/phase6-13.png);
+}
+#fbsection6 {
+	background-color: #A2A6A9;
+}
+
+#fbsection6.oneandten {
+	background-image: url(../images/oneandten.png);
+	height: 10%;
+}
+
+#fbsection6.oneandfour {
+	background-image: url(../images/oneandfour.png);
+	height: 25%;
+}
+
+#fbsection6.twoandfive {
+	background-image: url(../images/twoandfive.png);
+	height: 40%;
+}
+
+#fbsection6.half {
+	background-image: url(../images/half.png);
+	height: 50%;
+}
+
+#fbsection6.threeandfour {
+	background-image: url(../images/threeandfour.png);
+	height: 75%;
+}
+
+#fbsection6 {
+	background-image: url(../images/phase6-13.png);
+	height: 100%;
+}
+
+.content-layer {
+	color: #fff;
+	h1 {
+		font-size: 6.2em;
+		line-height: 85%;
+	}
+	p {
+		line-height: 160%;
+	}
+}
+
+#fbsection1 .content-layer {
+	height: 100%;
+	margin: 0 auto;
+	left: 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	width: 80%;
+	h1 {
+		/*font-size: 4.8em;*/
+		position: absolute;
+		top: 5%;
+	}
+	p {
+		border-top: 1px solid #fff;
+		bottom: 25%;
+		left: 0;
+		margin: 0 auto;
+		padding-top: 15px;
+		position: absolute;
+		right: 0;
+		text-align: left;
+		width: 88%;
+	}
+}
+
+#fbsection2 .content-layer {
+	height: 100%;
+	margin: 0 auto;
+	left: 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	width: 80%;
+	h1 {
+		font-size: 5.8em;
+		position: absolute;
+		top: 15%;
+		span {
+			display: block;
+		}
+	}
+	p {
+		border-top: 1px solid #fff;
+		bottom: 20%;
+		left: 0;
+		margin: 0 auto;
+		padding-top: 15px;
+		position: absolute;
+		right: 0;
+		text-align: left;
+		width: 70%;
+	}
+}
+
+#fbsection3 .content-layer {
+	/*border: 1px solid red;*/
+	color: #fff;
+	height: 100%;
+	margin: 0 auto;
+	left: 50px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 50%;
+	h1 {
+		font-size: 5.1em;
+		height: 207px;
+		margin: 75px 0 0;
+		position: relative;
+		span.left {
+			float: left;
+			margin-right: 30px;
+		}
+		span.middle {
+			float: left;
+			margin-left: 80px;
+		}
+		span.right {
+			float: left;
+			margin-left: 0px;
+		}
+	}
+	p#parag1 {
+		border-top: 1px solid #fff;
+		left: 0;
+		margin-bottom: 0;
+		padding-top: 15px;
+		position: relative;
+		text-align: left;
+		width: 80%;
+	}
+	p#parag2 {
+		border-top: none;
+		left: 0;
+		margin: 0;
+		padding-top: 0;
+		position: relative;
+		text-align: left;
+		width: 70%;
+	}
+}
+
+#fbsection4 .content-layer {
+	height: 100%;
+	margin: 0 auto;
+	left: 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	width: 70%;
+	h1 {
+		font-size: 5.8em;
+		height: 110px;
+		margin-top: 100px;
+		position: relative;
+	}
+	p {
+		border-top: 1px solid #fff;
+		left: 0;
+		margin-top: 0;
+		margin: 0 auto;
+		padding-top: 15px;
+		position: absolute;
+		right: 0;
+		text-align: left;
+		width: 85%;
+	}
+	h2 {
+		font-weight: 500;
+		left: 0;
+		margin: 0 auto;
+		position: absolute;
+		right: 0;
+		top: 400px;
+		width: 60%;
+		@include vertical-center();
+		span.middle {
+			font-size: 0.8em;
+			left: 0;
+			line-height: 100%;
+			margin: 0 auto;
+			padding-top: 5px;
+			position: absolute;
+			right: 0;
+			width: 60%;
+			@include vertical-center();
+		}
+		span.left {
+			float: left;
+			left: 90px;
+			padding-left: 10px;
+			position: absolute;
+		}
+		span.right {
+			float: right;
+			margin-top: -10px;
+			padding-left: 30px;
+			position: absolute;
+			width: 40%;
+		}
+	}
+
+}
+
+#fbsection5 .content-layer {
+	height: 100%;
+	margin: 0 auto;
+	left: 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	h1 {
+		font-size: 4.2em;
+		line-height: 100%;
+		margin-bottom: 0;
+		margin-top: 100px;
+		position: relative;
+	}
+	p {
+		border-top: 1px solid #fff;
+		margin: 15px auto 0;
+		padding-top: 15px;
+		position: relative;
+		text-align: left;
+		width: 80%;
+		left: 0;
+		right: 0;
+	}
+}
+
+#fbsection6 .content-layer {
+	height: 50%;
+	margin: 0 auto;
+	left: 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	h1 {
+		font-size: 5.6em;
+		margin-bottom: 0;
+		position: relative;
+	}
+	p {
+		border-top: 1px solid #fff;
+		margin: 20px auto 0;
+		padding-top: 15px;
+		position: relative;
+		text-align: left;
+		width: 80%;
+		left: 0;
+		right: 0;
+	}
+}
+
+
+
+#fbsection5 ul {
+	left: 25px;
+	list-style: none;
+	position: absolute;
+	right: 0;
+	top: 425px;
+	z-index: 10000000;
+	a {
+		/*border: 1px solid red;*/
+		border-radius: 150px;
+		color: #fff;
+		display: block;
+		height: 120px;
+		position: absolute;
+	  text-decoration: none;
+	  width: 120px;
+	  img.buttons {
+			left: -20px;
+			position: absolute;
+			top: -20px;
+	  	width: 160px;
+	  }
+	  img.tabs {
+	  	width: 450px;
+			position: absolute;
+	  }
+	  li {
+	  	display: none;
+	  }
+  }
+	a:hover img.buttons {
+		width: 190px;
+		margin-left: -15px;
+		margin-top: -15px;
+		z-index: 10001;
+		/*-webkit-transition-timing-function: all 1.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
+    -moz-transition-timing-function: all 1.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
+    -o-transition-timing-function: all 1.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
+    transition-timing-function: all 1.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);*/
+	}
+/*	a:hover span {
+		font-size: 1.0em;
+		padding-left: 10px;
+		z-index: 10001;
+		-webkit-transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
+    -moz-transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
+    -o-transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
+    transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
+	}*/
+	a li:hover {
+		/*width: 140px;
+		height: 140px;
+		-webkit-transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
+    -moz-transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
+    -o-transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
+    transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
+		position: absolute;
+		z-index: 10000;*/
+		/*left: -10px;
+		top: -10px;*/
+	}
+	a:hover li {
+		display: block;
+	}
+}
+
+
+#fbsection5 ul {
+	/* button position only */
+	a:nth-child(odd) {
+		top: 0px;
+		li {
+			position: absolute;
+			z-index: 10000;
+			left: 375px;
+			right: 0;
+			top: 230px;
+		}
+	}
+	a:nth-child(even) {
+		top: 80px;
+		li {
+			left: 0;
+			margin-top: -80px;
+			margin-left: -80px;
+			position: absolute;
+			right: 0;
+			z-index: 10000;
+			width: 750px;
+			float: right;
+			top: 230px;
+		}
+	}
+	a:nth-child(1) {
+		left: 50px;
+		li {
+			display: block !important;
+		}
+	}
+	a:nth-child(2) {
+		left: 130px;
+	}
+	a:nth-child(3) {
+		left: 210px;
+		li {
+			margin-left: -160px;
+		}
+	}
+	a:nth-child(4) {
+		left: 290px;
+		li {
+			margin-left: -240px;
+		}
+	}
+	a:nth-child(5) {
+		left: 370px;
+		li {
+			margin-left: -385px;
+		}
+	}
+	a:nth-child(6) {
+		left: 450px;
+		li {
+			margin-left: -400px;
+		}
+	}
+	a:nth-child(7) {
+		left: 530px;
+		li {
+			margin-left: -706px;
+		}
+	}
+	a:nth-child(8) {
+		left: 610px;
+		li {
+			margin-left: -560px;
+		}
+	}
+	a:nth-child(9) {
+		left: 690px;
+		li {
+			margin-left: -1025px;
+		}
+	}
+	a:nth-child(10) {
+		left: 770px;
+		li {
+			margin-left: -720px;
+		}
+	}
+
+}
+
+#exception {
+	height: 420px;
+	background-image: url(../images/phase6-13.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	/*background-size: cover;*/
+	background-size: auto 100%;
+}
+
+.oil {
+	left: 64px;
+	position: absolute;
+	top: 720px;
+	z-index: 10000000;
+	width: 450px;
+}
+
+#video-wrapper {
+	@include horizontal-center();
+	@include vertical-center();
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 100%;
+	z-index: 9999999;
+	video {
+		margin: 0 auto;
+	}
+}
+
+header {
+	height: 133px;
+	margin: 0px auto;
+	padding: 0;
+	width: 997px;
+}
+
+footer {
+	bottom: 0;
+	height: 100px;
+	left: 0;
+	margin: 0px auto;
+	padding: 0;
+	position: relative;
+	right: 0;
+	width: 997px;
+}
+
+#play_btn {
+	display: block;
+	z-index: 2;
+	position: absolute;
+	top: 49%;
+	left: 49%;
+	width: 8em;
+	height: 8em;
+	margin: -4em;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	opacity: 1;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	background-color: rgb(40, 40, 40);
+	background-color: rgba(40, 40, 40, 0.6);
+	border: 0.1em solid rgb(255, 255, 255);
+	border-color: rgba(255, 255, 255, 0.7);
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+	span {
+		background-image: url(../images/play_btn.png);
+	}
+}
+
+:-webkit-full-screen #video {
+  width: 100%;
+  height: 100%;
+}
+
+/**/
+
+a {
+  color:#1185ff;
+}
+
+/* Specific CSS code for the magnifying glass icon */
+a.zoomable {
+  display:block;
+  /* Adjust the width and height properties
+  according to your zoomable thumbnails dimensions;*/
+  width:320px;
+  height:180px;
+  background:#000;
+  position:relative;
+  -webkit-box-shadow:rgba(0,0,0,0.4) 0 4px 10px;
+  -moz-box-shadow:rgba(0,0,0,0.4) 0 4px 10px;
+  box-shadow:rgba(0,0,0,0.4) 0 4px 10px;
+}
+
+a.zoomable span.zoom_icon {
+  display:block;
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  /*
+  Important:
+  Upload the icon below to your server and update the path accordingly.
+  Please do not hotlink it!
+  */
+  background:url("http://f.cl.ly/items/3C1V2w2r36360V3c1b3x/sv_zoom_icon.png") no-repeat bottom right;
+  opacity:0.3;
+  -o-transition:opacity 0.25s;
+  -moz-transition:opacity 0.25s;
+  -webkit-transition:opacity 0.25s;
+  transition:opacity 0.25s;
+}
+
+a.zoomable:hover span.zoom_icon {opacity:1}
