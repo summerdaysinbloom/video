@@ -67,7 +67,7 @@ body {
 	right: 0;
 	top: 50%;
 	width: 953px;
-	/*z-index: 9999999;*/
+	z-index: 9999999;
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
@@ -78,7 +78,7 @@ body {
 	background: rgba(255,255,255,0.6);
 	display: block;
 	position: relative;
-	/*z-index: 9999999;*/
+	z-index: 9999999;
 	color: transparent;
 	width: 16px;
 	height: 16px;
@@ -439,14 +439,14 @@ body {
 			left: -20px;
 			position: absolute;
 			top: -20px;
-	  	width: 160px;
+		width: 160px;
 	  }
 	  img.tabs {
-	  	width: 450px;
+		width: 450px;
 			position: absolute;
 	  }
 	  li {
-	  	display: none;
+		display: none;
 	  }
   }
 	a:hover img.buttons {
@@ -455,26 +455,26 @@ body {
 		margin-top: -15px;
 		z-index: 10001;
 		/*-webkit-transition-timing-function: all 1.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
-    -moz-transition-timing-function: all 1.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
-    -o-transition-timing-function: all 1.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
-    transition-timing-function: all 1.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);*/
+	-moz-transition-timing-function: all 1.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
+	-o-transition-timing-function: all 1.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
+	transition-timing-function: all 1.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);*/
 	}
 /*	a:hover span {
 		font-size: 1.0em;
 		padding-left: 10px;
 		z-index: 10001;
 		-webkit-transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
-    -moz-transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
-    -o-transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
-    transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
+	-moz-transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
+	-o-transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
+	transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
 	}*/
 	a li:hover {
 		/*width: 140px;
 		height: 140px;
 		-webkit-transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
-    -moz-transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
-    -o-transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
-    transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
+	-moz-transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
+	-o-transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
+	transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
 		position: absolute;
 		z-index: 10000;*/
 		/*left: -10px;
