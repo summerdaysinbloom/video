@@ -672,7 +672,6 @@ a.zoomable {
 	position: relative;
 	padding: 80px;
 	margin-top: 50px;
-	z-index: -1;
 }
 
 a.zoomable span.playbtn {
@@ -693,7 +692,10 @@ a.zoomable span.playbtn {
   -moz-transition:opacity 0.25s;
   -webkit-transition:opacity 0.25s;
   transition:opacity 0.25s;
-  z-index: -1;
+}
+
+a #playbtn_img {
+	z-index: -1;
 }
 
 a.zoomable:hover span.zoom_icon {opacity:1}
