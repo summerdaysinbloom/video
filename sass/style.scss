@@ -596,7 +596,7 @@ body {
 	left: 0;
 	right: 0;
 	height: 100%;
-	z-index: 9999999;
+	z-index: 9999999 !important;
 	video {
 		margin: 0 auto;
 	}
@@ -692,10 +692,6 @@ a.zoomable span.playbtn {
   -moz-transition:opacity 0.25s;
   -webkit-transition:opacity 0.25s;
   transition:opacity 0.25s;
-}
-
-a img {
-	z-index: -10;
 }
 
 a.zoomable:hover span.zoom_icon {opacity:1}
