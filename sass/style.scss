@@ -665,13 +665,13 @@ a {
 
 /* Specific CSS code for the magnifying glass icon */
 a.zoomable {
-  display: block;
+	display: block;
 	width: 300px;
 	height: 300px;
-	-moz-box-shadow: rgba(0,0,0,0.4) 0 4px 10px;
-	border: 1px solid #fff;
 	border-radius: 300px;
 	position: relative;
+	padding: 80px;
+	margin-top: 50px;
 }
 
 a.zoomable span.playbtn {
@@ -692,6 +692,7 @@ a.zoomable span.playbtn {
   -moz-transition:opacity 0.25s;
   -webkit-transition:opacity 0.25s;
   transition:opacity 0.25s;
+  z-index: -1;
 }
 
 a.zoomable:hover span.zoom_icon {opacity:1}
