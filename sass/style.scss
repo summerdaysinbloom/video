@@ -67,7 +67,7 @@ body {
 	right: 0;
 	top: 50%;
 	width: 953px;
-	z-index: 9999999;
+	z-index: 100;
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
@@ -78,7 +78,7 @@ body {
 	background: rgba(255,255,255,0.6);
 	display: block;
 	position: relative;
-	z-index: 9999999;
+	z-index: 100;
 	color: transparent;
 	width: 16px;
 	height: 16px;
