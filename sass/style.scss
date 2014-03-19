@@ -672,6 +672,7 @@ a.zoomable {
 	position: relative;
 	padding: 80px;
 	margin-top: 50px;
+	z-index: -1;
 }
 
 a.zoomable span.playbtn {
