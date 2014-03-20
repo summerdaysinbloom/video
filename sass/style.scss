@@ -666,12 +666,16 @@ a.zoomable:hover span.zoom_icon {
 
 .lt-ie9 {
 	.container section {
-		border: 1px solid red;
+		border: 1px solid blue;
 	}
 	#fbsection1 {
 		background-color: #fdd;
 		background-image: url(../images/ie-phase1-12.png);
-		background-size: 997px 628px;
+		margin: 0 auto;
+	}
+	#fbsection3 {
+		background-color: #fdd;
+		background-image: url(../images/ie-phase3-12.png);
 		margin: 0 auto;
 	}
 }
