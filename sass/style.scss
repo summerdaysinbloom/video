@@ -785,89 +785,89 @@ a.zoomable:hover span.zoom_icon {
 		}
 	}
 	
-/*	#fbsection5 ul {
-	a:nth-child(odd) {
-		top: 0px;
-		li {
-			position: absolute;
-			z-index: 10000;
-			left: 375px;
-			right: 0;
-			top: 230px;
-		}
-	}
-	a:nth-child(even) {
-		top: 80px;
-		li {
-			left: 0;
-			margin-top: -80px;
-			margin-left: -80px;
-			position: absolute;
-			right: 0;
-			z-index: 10000;
-			width: 750px;
-			float: right;
-			top: 230px;
-		}
-	}
-	a:nth-child(1) {
-		left: 50px;
-		li {
-			display: block !important;
-		}
-	}
-	a:nth-child(2) {
-		left: 130px;
-	}
-	a:nth-child(3) {
-		left: 210px;
-		li {
-			margin-left: -160px;
-		}
-	}
-	a:nth-child(4) {
-		left: 290px;
-		li {
-			margin-left: -240px;
-		}
-	}
-	a:nth-child(5) {
-		left: 370px;
-		li {
-			margin-left: -385px;
-		}
-	}
-	a:nth-child(6) {
-		left: 450px;
-		li {
-			margin-left: -400px;
-		}
-	}
-	a:nth-child(7) {
-		left: 530px;
-		li {
-			margin-left: -706px;
-		}
-	}
-	a:nth-child(8) {
-		left: 610px;
-		li {
-			margin-left: -560px;
-		}
-	}
-	a:nth-child(9) {
-		left: 690px;
-		li {
-			margin-left: -1025px;
-		}
-	}
-	a:nth-child(10) {
-		left: 770px;
-		li {
-			margin-left: -720px;
-		}
-	}
-}*/
+	#fbsection5 ul {
+  	a:nth-child(odd) {
+  		top: 0px;
+  		li {
+  			position: absolute;
+  			z-index: 10000;
+  			left: 375px;
+  			right: 0;
+  			top: 230px;
+  		}
+  	}
+  	a:nth-child(even) {
+  		top: 80px;
+  		li {
+  			left: 0;
+  			margin-top: -80px;
+  			margin-left: -80px;
+  			position: absolute;
+  			right: 0;
+  			z-index: 10000;
+  			width: 750px;
+  			float: right;
+  			top: 230px;
+  		}
+  	}
+  	a:nth-child(1) {
+  		left: 50px;
+  		li {
+  			display: block !important;
+  		}
+  	}
+  	a:nth-child(2) {
+  		left: 130px;
+  	}
+  	a:nth-child(3) {
+  		left: 210px;
+  		li {
+  			margin-left: -160px;
+  		}
+  	}
+  	a:nth-child(4) {
+  		left: 290px;
+  		li {
+  			margin-left: -240px;
+  		}
+  	}
+  	a:nth-child(5) {
+  		left: 370px;
+  		li {
+  			margin-left: -385px;
+  		}
+  	}
+  	a:nth-child(6) {
+  		left: 450px;
+  		li {
+  			margin-left: -400px;
+  		}
+  	}
+  	a:nth-child(7) {
+  		left: 530px;
+  		li {
+  			margin-left: -706px;
+  		}
+  	}
+  	a:nth-child(8) {
+  		left: 610px;
+  		li {
+  			margin-left: -560px;
+  		}
+  	}
+  	a:nth-child(9) {
+  		left: 690px;
+  		li {
+  			margin-left: -1025px;
+  		}
+  	}
+  	a:nth-child(10) {
+  		left: 770px;
+  		li {
+  			margin-left: -720px;
+  		}
+  	}
+  }
 
 
 /*---------------------------------------------*/
