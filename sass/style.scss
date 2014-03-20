@@ -635,6 +635,7 @@ a.zoomable {
 }
 
 a.zoomable span.playbtn {
+	border: 3px solid #fdd;
 	background:url("../images/play_btn.png") no-repeat center center;
   display:block;
   height:100%;
@@ -662,6 +663,7 @@ a.zoomable:hover span.zoom_icon {
 		background: #465654;
 	}
 }
+
 .lt-ie9 {
 	body {
 		background: #fdd;
