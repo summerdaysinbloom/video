@@ -669,13 +669,23 @@ a.zoomable:hover span.zoom_icon {
 		border: 1px solid blue;
 	}
 	#fbsection1 {
-		background-color: #fdd;
 		background-image: url(../images/ie-phase1-12.png);
 		margin: 0 auto;
 	}
+	#fbsection2 {
+		background-image: url(../images/ie-phase2-12.png);
+		margin: 0 auto;
+	}
 	#fbsection3 {
-		background-color: #fdd;
 		background-image: url(../images/ie-phase3-12.png);
+		margin: 0 auto;
+	}
+	#fbsection4 {
+		background-image: url(../images/ie-phase5-12.png);
+		margin: 0 auto;
+	}
+	#fbsection4 {
+		background-image: url(../images/ie-phase6-12.png);
 		margin: 0 auto;
 	}
 }
