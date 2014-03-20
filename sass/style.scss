@@ -742,7 +742,6 @@ a.zoomable:hover span.zoom_icon {
 		}
 	}
 
-
 	/*---------------------------------------------*/
 	#fbsection5 ul {
 		left: 25px;
@@ -752,7 +751,6 @@ a.zoomable:hover span.zoom_icon {
 		top: 425px;
 		z-index: 10000000;
 		a {
-			border: 1px solid red;
 			border-radius: 150px;
 			color: #fff;
 			display: block;
@@ -787,7 +785,6 @@ a.zoomable:hover span.zoom_icon {
 	
 	#fbsection5 ul {
   	a:nth-child(odd) {
-  		top: 0px;
   		li {
   			position: absolute;
   			z-index: 10000;
@@ -797,7 +794,6 @@ a.zoomable:hover span.zoom_icon {
   		}
   	}
   	a:nth-child(even) {
-  		top: 80px;
   		li {
   			left: 0;
   			margin-top: -80px;
