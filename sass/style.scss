@@ -706,9 +706,21 @@ a.zoomable:hover span.zoom_icon {
 			margin-top: 120px;
 			width: 80%;
 		}
-			h2 {
+		h2 {
+			font-weight: 500;
+		  left: 0;
+		  margin: 0 auto;
+		  position: absolute;
+		  right: 0;
+		  top: 400px;
+		  width: 60%;
+		  @include vertical-center();
 			span.right {
+				float: right;
+				margin-top: -10px;
 				padding-left: 250px;
+				position: absolute;
+				width: 40%;
 			}
 		}
 		p {
