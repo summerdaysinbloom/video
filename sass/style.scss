@@ -665,8 +665,15 @@ a.zoomable:hover span.zoom_icon {
 }
 
 .lt-ie9 {
-	.container section {
-		border: 1px solid blue;
+	.container {
+		background-size: 100% auto;
+		background-repeat: repeat;
+		height: auto;
+		width: 997px;
+		margin: 0 auto;
+		section {
+			border: 1px solid blue;
+		}
 	}
 	#fbsection1 {
 		background-image: url(../images/ie-phase1-12.png);
