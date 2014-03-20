@@ -657,9 +657,9 @@ a.zoomable:hover span.zoom_icon {
  * ONLY FOR IE8
  */
 
+.lt-ie8,
 .lt-ie9 {
-	.container section {
-		background-color: #fdd;
-		width: 997px;
+	body {
+		background: #fdd;
 	}
 }
