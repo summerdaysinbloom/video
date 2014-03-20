@@ -129,8 +129,7 @@ body {
 .cbp-fbscroller section {
 	background-position: top center;
 	background-repeat: no-repeat;
-	/*background-size: cover;*/
-	background-size: auto 100%;
+	background-size: cover;
 	position: relative;
 }
 
@@ -450,6 +449,7 @@ body {
 	top: 425px;
 	z-index: 10000000;
 	a {
+		border: 1px solid red;
 		border-radius: 150px;
 		color: #fff;
 		display: block;
@@ -565,7 +565,6 @@ body {
 			margin-left: -720px;
 		}
 	}
-
 }
 
 #exception {
