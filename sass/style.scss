@@ -769,7 +769,8 @@ a.zoomable:hover span.zoom_icon {
 				position: absolute;
 		  }
 		  li {
-			display: none;
+					/*display: none;*/
+				border: 1px solid red;
 		  }
 	  }
 		a:hover img.buttons {
