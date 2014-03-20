@@ -707,6 +707,11 @@ a.zoomable:hover span.zoom_icon {
 	#fbsection5 .content-layer p {
 			padding-top: 10px;
 	}
+	#fbsection3 .content-layer {
+		h1 {
+			margin: 105px 0 0;
+		}
+	}
 
 	#fbsection4 .content-layer {
 		width: 70%;
@@ -738,7 +743,6 @@ a.zoomable:hover span.zoom_icon {
 	}
 	/* button */
 	a.zoomable {
-		border: 3px solid #fdd;
 		border-radius: 300px;
 		display: block;
 		height: 140px;
