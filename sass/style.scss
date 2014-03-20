@@ -652,3 +652,14 @@ a.zoomable span.playbtn {
 a.zoomable:hover span.zoom_icon {
 	opacity:1
 }
+
+/*
+ * ONLY FOR IE8
+ */
+
+.lt-ie8 {
+	.container section {
+		background-color: #fdd;
+		width: 997px;
+	}
+}
