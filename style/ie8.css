@@ -12,35 +12,40 @@
 
 #fbsection1 {
 	background-color: #A2A6A9;
-	background-image: url(../images/phase1-12.png);
+	background-image: url(../images/phase6-1.png);
+	background-size: 100% auto;
 	margin: 0 auto;
 	position: relative;
 }
 
 #fbsection2 {
 	background-color: #A2A6A9;
-	background-image: url(../images/phase2-13.png);
+	background-image: url(../images/phase5-1.png);
+	background-size: 100% auto;
 	margin: 0 auto;
 	position: relative;
 }
 
 #fbsection3 {
 	background-color: #A2A6A9;
-	background-image: url(../images/phase3-12.png);
+	background-image: url(../images/phase3-1.png);
+	background-size: 100% auto;
 	margin: 0 auto;
 	position: relative;
 }
 
 #fbsection4 {
 	background-color: #A2A6A9;
-	background-image: url(../images/phase5-12.png);
+	background-image: url(../images/phase2-1.png);
+	background-size: 100% auto;
 	margin: 0 auto;
 	position: relative;
 }
 
 #fbsection5 {
 	background-color: #A2A6A9;
-	background-image: url(../images/phase6-13.png);
+	background-image: url(../images/phase1-1.png);
+	background-size: 100% auto;
 	margin: 0 auto;
 	position: relative;
 }
