@@ -384,7 +384,6 @@ body {
 			width: 40%;
 		}
 	}
-
 }
 
 #fbsection5 .content-layer {
@@ -700,4 +699,19 @@ a.zoomable:hover span.zoom_icon {
 	#fbsection6 {
 		display: none !important;
 	}
+	#fbsection4 .content-layer {
+		width: 70%;
+		h1 {
+			margin: 0 auto;
+			margin-top: 120px;
+			width: 80%;
+		}
+			h2 {
+			span.right {
+				padding-left: 250px;
+			}
+		}
+		p {
+			padding-top: 10px;
+		}
 }
