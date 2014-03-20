@@ -7,11 +7,11 @@
 }
 
 .container section {
-	background-color: #A2A6A9;
+	background-color: #fdd;
+	width: 997px;
 }
 
 #fbsection1 {
-	border: 5px solid #fff9;
 	margin: 0 auto;
 	position: relative;
 	height: 100%;
