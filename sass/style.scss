@@ -625,6 +625,7 @@ a {
 
 /* Specific CSS code for the magnifying glass icon */
 a.zoomable {
+	border: 3px solid #fdd;
 	border-radius: 300px;
 	display: block;
 	height: 300px;
@@ -635,7 +636,6 @@ a.zoomable {
 }
 
 a.zoomable span.playbtn {
-	border: 3px solid #fdd;
 	background:url("../images/play_btn.png") no-repeat center center;
   display:block;
   height:100%;
