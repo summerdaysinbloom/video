@@ -736,4 +736,16 @@ a.zoomable:hover span.zoom_icon {
 			margin: 60px auto 0;
 		}
 	}
+	/* button */
+	a.zoomable {
+		border: 3px solid #fdd;
+		border-radius: 300px;
+		display: block;
+		height: 200px;
+		margin-left: 260px;
+		margin-top: 260px;
+		padding: 80px;
+		position: relative;
+		width: 200px;
+	}
 }
