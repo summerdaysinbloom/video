@@ -695,9 +695,12 @@ a.zoomable:hover span.zoom_icon {
 		height: 848px;
 		margin: 0 auto;
 	}
-	#fbsection4 {
+	#fbsection5 {
 		background-image: url(../images/ie-phase6-12.png);
 		height: 1231px;
 		margin: 0 auto;
+	}
+	#fbsection5 {
+		display: none !important;
 	}
 }
