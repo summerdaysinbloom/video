@@ -699,6 +699,15 @@ a.zoomable:hover span.zoom_icon {
 	#fbsection6 {
 		display: none !important;
 	}
+	
+	#fbsection1 .content-layer p,
+	#fbsection2 .content-layer p,
+	#fbsection3 .content-layer p,
+	#fbsection4 .content-layer p,
+	#fbsection5 .content-layer p {
+			padding-top: 10px;
+	}
+
 	#fbsection4 .content-layer {
 		width: 70%;
 		h1 {
@@ -725,7 +734,6 @@ a.zoomable:hover span.zoom_icon {
 		}
 		p {
 			margin: 60px auto 0;
-			padding-top: 10px;
 		}
 	}
 }
