@@ -49,8 +49,8 @@ html, body,
 }
 
 body {
-	font-family: Helvetica, Arial, sans-serif;
 	background: #fff;
+	font-family: Helvetica, Arial, sans-serif;
 	margin: 0 auto;
 	width: 997px;
 }
@@ -64,9 +64,9 @@ body {
 	left: 0;
 	margin: 0 auto;
 	position: fixed;
-	right: 0;
+	right: -900px;
 	top: 50%;
-	width: 953px;
+	width: 0;
 	z-index: 100;
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
@@ -76,22 +76,49 @@ body {
 
 .cbp-fbscroller > nav a {
 	background: rgba(255,255,255,0.6);
-	display: block;
-	position: relative;
-	z-index: 100;
-	color: transparent;
-	width: 16px;
-	height: 16px;
-	outline: none;
-	margin: 25px 0;
 	border-radius: 50%;
+	color: transparent;
+	display: block;
+	height: 16px;
+	margin: 25px 0;
+	outline: none;
+	position: relative;
+	width: 16px;
+	z-index: 100;
+	@include horizontal-center();
+	span {
+		left: -100px;
+	}
+	&:hover {
+		background: rgba(255,255,255,1);
+		color: transparent;
+		span {
+			color: #eee !important;
+			padding-left: 10px;
+		}
+	}
 }
 
-.no-touch .cbp-fbscroller > nav a:hover {
-	background: rgba(255,255,255,1);
-	span {
-		color: #eee;
-		padding-left: 10px;
+.cbp-fbscroller > nav {
+	a:nth-child(1) span {
+		margin-left: -115px;
+
+	}
+	a:nth-child(2) span {
+		margin-left: -105px;
+
+	}
+	a:nth-child(3) span {
+		margin-left: -125px;
+
+	}
+	a:nth-child(4) span {
+		margin-left: -140px;
+
+	}
+	a:nth-child(5) span {
+		margin-left: -93px;
+
 	}
 }
 
@@ -99,22 +126,15 @@ body {
 	background: #fff;
 }
 
-/* background-attachment does the trick */
 .cbp-fbscroller section {
-	position: relative;
 	background-position: top center;
 	background-repeat: no-repeat;
 	/*background-size: cover;*/
 	background-size: auto 100%;
-	/*background-size: 100% auto;*/
-}
-
-.no-touch .cbp-fbscroller section {
-	/*background-attachment: fixed;*/
+	position: relative;
 }
 
 .container {
-	/*background: url(../images/background.jpg);*/
 	background-size: 100% auto;
 	background-repeat: repeat;
 	height: 100%;
@@ -150,35 +170,42 @@ body {
 	background-color: #A2A6A9;
 	background-image: url(../images/phase6-13.png);
 }
+
 #fbsection6 {
 	background-color: #A2A6A9;
 }
 
+/* 1/10 */
 #fbsection6.oneandten {
 	background-image: url(../images/oneandten.png);
 	height: 10%;
 }
 
+/* 1/4 */
 #fbsection6.oneandfour {
 	background-image: url(../images/oneandfour.png);
 	height: 25%;
 }
 
+/* 2/5 */
 #fbsection6.twoandfive {
 	background-image: url(../images/twoandfive.png);
 	height: 40%;
 }
 
+/* 1/2 */
 #fbsection6.half {
 	background-image: url(../images/half.png);
 	height: 50%;
 }
 
+/* 3/4 */
 #fbsection6.threeandfour {
 	background-image: url(../images/threeandfour.png);
 	height: 75%;
 }
 
+/* 1 */
 #fbsection6 {
 	background-image: url(../images/phase6-13.png);
 	height: 100%;
@@ -197,15 +224,14 @@ body {
 
 #fbsection1 .content-layer {
 	height: 100%;
-	margin: 0 auto;
 	left: 0;
+	margin: 0 auto;
 	position: absolute;
 	right: 0;
 	text-align: center;
 	top: 0;
 	width: 80%;
 	h1 {
-		/*font-size: 4.8em;*/
 		position: absolute;
 		top: 5%;
 	}
@@ -224,8 +250,8 @@ body {
 
 #fbsection2 .content-layer {
 	height: 100%;
-	margin: 0 auto;
 	left: 0;
+	margin: 0 auto;
 	position: absolute;
 	right: 0;
 	text-align: center;
@@ -253,11 +279,10 @@ body {
 }
 
 #fbsection3 .content-layer {
-	/*border: 1px solid red;*/
 	color: #fff;
 	height: 100%;
-	margin: 0 auto;
 	left: 50px;
+	margin: 0 auto;
 	position: absolute;
 	text-align: center;
 	top: 0;
@@ -302,8 +327,8 @@ body {
 
 #fbsection4 .content-layer {
 	height: 100%;
-	margin: 0 auto;
 	left: 0;
+	margin: 0 auto;
 	position: absolute;
 	right: 0;
 	text-align: center;
@@ -365,8 +390,8 @@ body {
 
 #fbsection5 .content-layer {
 	height: 100%;
-	margin: 0 auto;
 	left: 0;
+	margin: 0 auto;
 	position: absolute;
 	right: 0;
 	text-align: center;
@@ -381,20 +406,20 @@ body {
 	}
 	p {
 		border-top: 1px solid #fff;
+		left: 0;
 		margin: 15px auto 0;
 		padding-top: 15px;
 		position: relative;
+		right: 0;
 		text-align: left;
 		width: 80%;
-		left: 0;
-		right: 0;
 	}
 }
 
 #fbsection6 .content-layer {
 	height: 50%;
-	margin: 0 auto;
 	left: 0;
+	margin: 0 auto;
 	position: absolute;
 	right: 0;
 	text-align: center;
@@ -417,8 +442,6 @@ body {
 	}
 }
 
-
-
 #fbsection5 ul {
 	left: 25px;
 	list-style: none;
@@ -427,7 +450,6 @@ body {
 	top: 425px;
 	z-index: 10000000;
 	a {
-		/*border: 1px solid red;*/
 		border-radius: 150px;
 		color: #fff;
 		display: block;
@@ -439,7 +461,7 @@ body {
 			left: -20px;
 			position: absolute;
 			top: -20px;
-		width: 160px;
+			width: 160px;
 	  }
 	  img.tabs {
 		width: 450px;
@@ -454,37 +476,11 @@ body {
 		margin-left: -15px;
 		margin-top: -15px;
 		z-index: 10001;
-		/*-webkit-transition-timing-function: all 1.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
-	-moz-transition-timing-function: all 1.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
-	-o-transition-timing-function: all 1.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
-	transition-timing-function: all 1.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);*/
-	}
-/*	a:hover span {
-		font-size: 1.0em;
-		padding-left: 10px;
-		z-index: 10001;
-		-webkit-transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
-	-moz-transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
-	-o-transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
-	transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
-	}*/
-	a li:hover {
-		/*width: 140px;
-		height: 140px;
-		-webkit-transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
-	-moz-transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
-	-o-transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
-	transition-timing-function: all 2.2s cubic-bezier(0.86, 0.06, 0.94, 0.07);
-		position: absolute;
-		z-index: 10000;*/
-		/*left: -10px;
-		top: -10px;*/
 	}
 	a:hover li {
 		display: block;
 	}
 }
-
 
 #fbsection5 ul {
 	/* button position only */
@@ -577,7 +573,6 @@ body {
 	background-image: url(../images/phase6-13.png);
 	background-position: top center;
 	background-repeat: no-repeat;
-	/*background-size: cover;*/
 	background-size: auto 100%;
 }
 
@@ -631,24 +626,24 @@ a {
 
 /* Specific CSS code for the magnifying glass icon */
 a.zoomable {
-	display: block;
-	width: 300px;
-	height: 300px;
 	border-radius: 300px;
-	position: relative;
-	padding: 80px;
+	display: block;
+	height: 300px;
 	margin-top: 50px;
+	padding: 80px;
+	position: relative;
+	width: 300px;
 }
 
 a.zoomable span.playbtn {
+	background:url("../images/play_btn.png") no-repeat center center;
   display:block;
-  width:100%;
   height:100%;
-  position:absolute;
-  top:0;
   left:0;
-  background:url("../images/play_btn.png") no-repeat center center;
   opacity:0.8;
+  position:absolute;
+  top:0;  
+  width:100%;
   -o-transition:opacity 0.25s;
   -moz-transition:opacity 0.25s;
   -webkit-transition:opacity 0.25s;
@@ -657,77 +652,4 @@ a.zoomable span.playbtn {
 
 a.zoomable:hover span.zoom_icon {
 	opacity:1
-}
-
-/* 
- * canvas test 
- */
-
-/*canvas#can {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  border: 1px dotted #000;
-  width: 1000px;
-  height: 200px;
-  background-image: url(../images/base.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.slider {
-	position: absolute;
-	left: 64px;
-	width: 400px;
-	height: 52px;
-	top: 77px;
-}
-
-.bar {
-  position: relative;
-  top: 30px;
-  width: 400px;
-  height: 1px;
-  background-color: #ccc;
-}
-
-.knob {
-	position: absolute;
-	background-color: #fff;
-	width: 3px;
-	height: 110px;
-	top: -23px;
-}
-*/
-
-/* 
- * canvas2 test 
- */
-canvas {
-  border-radius: 25px;
-  border: 1px solid #404040;
-}
-.slider {
-  position: absolute;
-  top: 300px;
-  left: 85px;
-  width: 152px;
-  height: 52px;
-}
-.bar {
-  position: relative;
-  top: 30px;
-  width: 152px;
-  height: 2px;
-  background-color: #404040 ;
-}
-.knob {
-  position: relative;
-  left: 100px;
-  border: 1px solid #404040;
-  background-color: #C0C0C0 ;
-  width: 50px;
-  height: 50px;
-  border-radius: 25px;
-  text-align: center;
 }

@@ -15,7 +15,7 @@
   	<link rel='shortcut icon' href='favicon.ico'>
   	<link href='lib/normalize.css' rel='stylesheet' type='text/css'/>
 		<!--[if IE 8]>  
-      <link rel="stylesheet" href="ie8.css">  
+      <link rel="stylesheet" href="style/ie8.css">  
     <![endif]-->  
     <link href='style/style.css' rel='stylesheet' type='text/css'/>
     <script src="lib/modernizr.custom.js"></script>
@@ -161,17 +161,16 @@
 		<script src="lib/waypoints.min.js"></script>
 		<script src="lib/cbpFixedScrollLayout.min.js"></script>
     <!-- video -->
-    <script type="text/javascript" src="https://cdn.sublimevideo.net/js/v6xdy9my.js"></script>
+    <!-- // <script type="text/javascript" src="https://cdn.sublimevideo.net/js/v6xdy9my.js"></script> -->
 		<script>
 			$(function() {
-				cbpFixedScrollLayout.init();
+				  cbpFixedScrollLayout.init();
 			});
+
       $(window).load(function() {
           var height = $(window).height();
-          console.log(height, 'LOAD');
 
           if(height < 640 ) {
-              console.log('1/10');
               $('#fbsection6').removeClass();
           
           } else if( height > 641 && height < 760 ) {
@@ -179,23 +178,18 @@
               $('#fbsection6').addClass('threeandfour');
           
           } else if ( height > 761 && height < 910 ) {
-          
-              console.log('1/2');
               $('#fbsection6').removeClass();
               $('#fbsection6').addClass('half');
           
           } else if ( height > 911 && height < 960 ) {
-              console.log('resizing 2/5');
               $('#fbsection6').removeClass();
               $('#fbsection6').addClass('twoandfive');
-          } else if ( height > 961 && height < 999 ) {
 
-              console.log('resizing 1/4');
+          } else if ( height > 961 && height < 999 ) {
               $('#fbsection6').removeClass();
               $('#fbsection6').addClass('oneandfour');
-          } else if ( height > 1001 ) {
 
-              console.log('resizing 1/10');
+          } else if ( height > 1001 ) {
               $('#fbsection6').removeClass();
               $('#fbsection6').addClass('oneandten');
           }
@@ -204,74 +198,30 @@
 
       $(window).resize(function() {
           var height = $(window).height();
-          console.log('resizing : ' , height);
-          if(height < 640 ) {
-              
+          if(height < 640 ) {              
               $('#fbsection6').removeClass();
           
           } else if( height > 641 && height < 760 ) {
-              
-              console.log('resizing 3/4');
               $('#fbsection6').removeClass();
               $('#fbsection6').addClass('threeandfour');
 
           } else if (height > 761 && height < 910 ) {
-              console.log('resizing 1/2');
-
               $('#fbsection6').removeClass();
               $('#fbsection6').addClass('half');
 
           } else if ( height > 911 && height < 960 ) {
-              
-              console.log('resizing 2/5');
               $('#fbsection6').removeClass();
               $('#fbsection6').addClass('twoandfive');
 
           } else if ( height > 961 && height < 999 ) {
-
-              console.log('resizing 1/4');
               $('#fbsection6').removeClass();
               $('#fbsection6').addClass('oneandfour');
 
           } else if ( height > 1001 ) {
-
-              console.log('resizing 1/10');
               $('#fbsection6').removeClass();
               $('#fbsection6').addClass('oneandten');
           }
       });
-
-        //video
-        // var elem = document.getElementById("video");
-        // console.log('elem',elem);
-        // if (elem.requestFullscreen) {
-        //   elem.requestFullscreen();
-        // } else if (elem.mozRequestFullScreen) {
-        //   elem.mozRequestFullScreen();
-        // } else if (elem.webkitRequestFullscreen) {
-        //   elem.webkitRequestFullscreen();
-        // }
-
-        // $('#video').webkitEnterFullScreen();
-
-        $('#play_btn').click(function(){
-            console.log('click');  
-            $('#video').bind("playing", function(){
-      
-              var elem = document.getElementById("video");
-              if (elem.requestFullscreen) {
-                elem.requestFullscreen();
-              } else if (elem.mozRequestFullScreen) {
-                elem.mozRequestFullScreen();
-              } else if (elem.webkitRequestFullscreen) {
-                elem.webkitRequestFullscreen();
-              }
-            });
-      
-            $('#video').bind("ended", function(){ 
-              $("#video-wrapper").hide();
-            });
-       });
 		</script>
 	</body>
 </html>

@@ -1,0 +1,71 @@
+/* 
+ * canvas test 
+ */
+
+canvas#can {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border: 1px dotted #000;
+  width: 1000px;
+  height: 200px;
+  background-image: url(../images/base.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.slider {
+	position: absolute;
+	left: 64px;
+	width: 400px;
+	height: 52px;
+	top: 77px;
+}
+
+.bar {
+  position: relative;
+  top: 30px;
+  width: 400px;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.knob {
+	position: absolute;
+	background-color: #fff;
+	width: 3px;
+	height: 110px;
+	top: -23px;
+}
+
+/* 
+ * canvas2 test 
+ */
+/*canvas {
+  border-radius: 25px;
+  border: 1px solid #404040;
+}
+.slider {
+  position: absolute;
+  top: 300px;
+  left: 85px;
+  width: 152px;
+  height: 52px;
+}
+.bar {
+  position: relative;
+  top: 30px;
+  width: 152px;
+  height: 2px;
+  background-color: #404040 ;
+}
+.knob {
+  position: relative;
+  left: 100px;
+  border: 1px solid #404040;
+  background-color: #C0C0C0 ;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  text-align: center;
+}*/
