@@ -858,14 +858,16 @@ a.zoomable:hover span.zoom_icon {
   		left: 370px;
   		top: -480px;
   		li {
-  			display: block !important;
   			margin-left: -385px;
+  			top: 220px;
+  			left: 395px;
   		}
   	}
   	a#tab6 {
   		left: 450px;
   		top: -520px;
   		li {
+  			display: block !important;
   			margin-left: -400px;
   		}
   	}
