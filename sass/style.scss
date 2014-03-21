@@ -827,10 +827,8 @@ a.zoomable:hover span.zoom_icon {
   		left: 130px;
   		top: -40px;
   		li {
-  			
-  			display: block !important;
-  			top: 149px;
-  			left: 249px;
+  			top: 150px;
+  			left: 250px;
   		}
   	}
   	a#tab3 {
@@ -872,7 +870,9 @@ a.zoomable:hover span.zoom_icon {
   	a#tab7 {
   		left: 530px;
   		top: -720px;
-  		li {  			
+  		li {
+  		
+  			display: block !important;		
   			margin-left: -706px;
   			top: 140px;
   			left: 330px;
