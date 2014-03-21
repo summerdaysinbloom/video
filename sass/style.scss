@@ -471,7 +471,9 @@ body {
 			position: absolute;
 	  }
 	  li {
-		display: none;
+		  /*display: none;*/
+		  display: block;
+		  position: relative;
 	  }
   }
 	a:hover img.buttons {
