@@ -840,15 +840,19 @@ a.zoomable:hover span.zoom_icon {
   		left: 210px;
   		top: -240px;
   		li {
+  			
   			display: block !important;
-  			margin-left: -160px;
+  			/*margin-left: -160px;*/
+  			/*top: 225px;
+  			left: 330px;*/
   		}
   	}
   	a#tab4 {
   		left: 290px;
   		top: -280px;
   		li {
-  			margin-left: -240px;
+  			display: block !important;
+  			/*margin-left: -240px;*/
   		}
   	}
   	a#tab5 {
