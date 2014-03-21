@@ -827,6 +827,8 @@ a.zoomable:hover span.zoom_icon {
   		left: 130px;
   		top: -40px;
   		li {
+  			
+  			display: block !important;
   			top: 149px;
   			left: 249px;
   		}
@@ -853,10 +855,8 @@ a.zoomable:hover span.zoom_icon {
   		left: 370px;
   		top: -480px;
   		li {
-  			
-  			display: block !important;
   			margin-left: -385px;
-  			top: 220px;
+  			top: 230px;
   			left: 395px;
   		}
   	}
