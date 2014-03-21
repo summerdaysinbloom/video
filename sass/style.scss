@@ -451,6 +451,8 @@ body {
 	top: 425px;
 	z-index: 10000000;
 	a {
+		border: 1px solid yellow;
+		border: 2px solid #fff9;
 		border-radius: 150px;
 		color: #fff;
 		display: block;
@@ -777,6 +779,7 @@ a.zoomable:hover span.zoom_icon {
 		  }
 		  li {
 				display: none;
+				border: 1px solid red;
 		  	position: absolute;
 		  	left: 320px;
 				top: 150px;
@@ -882,6 +885,8 @@ a.zoomable:hover span.zoom_icon {
   		left: 610px;
   		top: -760px;
   		li {
+  			
+  			display: block !important;
   			margin-left: -560px;
   			top: 218px;
   			left: 555px;
@@ -891,7 +896,7 @@ a.zoomable:hover span.zoom_icon {
   		left: 690px;
   		top: -960px;
   		li {
-  			margin-left: -630px;
+  			margin-left: -720px;
   			top: 215px;
   			left: 320px;
   		}
@@ -900,8 +905,8 @@ a.zoomable:hover span.zoom_icon {
   		left: 770px;
   		top: -1000px;
   		li {
-  			display: block !important;
-  			margin-left: -420px;
+
+  			margin-left: -720px;
   		}
   	}
   }
