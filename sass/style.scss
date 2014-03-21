@@ -778,9 +778,8 @@ a.zoomable:hover span.zoom_icon {
 				position: absolute;
 		  }
 		  li {
-					/*display: none;*/
+				display: none;
 				border: 1px solid red;
-		  	display: block;
 		  	position: absolute;
 		  	left: 320px;
 				top: 150px;
@@ -825,11 +824,18 @@ a.zoomable:hover span.zoom_icon {
   		top: 0px;
   		li {
   			display: block !important;
+  			top: 230px;
+  			left: 330px;
   		}
   	}
   	a#tab2 {
   		left: 130px;
   		top: -40px;
+  		li {
+  			display: block !important;
+  			top: 230px;
+  			left: 330px;
+  		}
   	}
   	a#tab3 {
   		left: 210px;
