@@ -894,15 +894,17 @@ a.zoomable:hover span.zoom_icon {
   		left: 690px;
   		top: -960px;
   		li {
-  			display: block !important;
-  			margin-left: -1025px;
+  			margin-left: -630px;
+  			top: 215px;
+  			left: 320px;
   		}
   	}
   	a#tab10 {
   		left: 770px;
   		top: -1000px;
   		li {
-  			margin-left: -720px;
+  			display: block !important;
+  			margin-left: -420px;
   		}
   	}
   }
