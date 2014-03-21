@@ -472,8 +472,12 @@ body {
 	  }
 	  li {
 		  /*display: none;*/
+		  border: 1px solid #fdd;
 		  display: block;
-		  position: relative;
+		  position: absolute;
+		  left: 10px;
+			right: 0;
+			top: 0;
 	  }
   }
 	a:hover img.buttons {
