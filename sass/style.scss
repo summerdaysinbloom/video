@@ -79,10 +79,12 @@ body {
 	border-radius: 50%;
 	color: transparent;
 	display: block;
+	font-size: 10px;
 	height: 10px;
 	margin: 15px 0;
 	outline: none;
 	position: relative;
+	text-transform: uppercase;
 	width: 10px;
 	z-index: 100;
 	@include horizontal-center();
@@ -94,6 +96,7 @@ body {
 		color: transparent;
 		span {
 			color: #eee !important;
+			font-size: 10px;
 			padding-left: 10px;
 		}
 	}
@@ -101,23 +104,23 @@ body {
 
 .cbp-fbscroller > nav {
 	a:nth-child(1) span {
-		margin-left: -115px;
+		margin-left: -88px;
 
 	}
 	a:nth-child(2) span {
-		margin-left: -105px;
+		margin-left: -76px;
 
 	}
 	a:nth-child(3) span {
-		margin-left: -125px;
+		margin-left: -95px;
 
 	}
 	a:nth-child(4) span {
-		margin-left: -140px;
+		margin-left: -103px;
 
 	}
 	a:nth-child(5) span {
-		margin-left: -93px;
+		margin-left: -73px;
 
 	}
 }
