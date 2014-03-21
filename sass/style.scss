@@ -867,14 +867,17 @@ a.zoomable:hover span.zoom_icon {
   		left: 450px;
   		top: -520px;
   		li {
-  			display: block !important;
   			margin-left: -400px;
+  			top: 140px;
+  			left: 330px;
   		}
   	}
   	a#tab7 {
   		left: 530px;
   		top: -720px;
   		li {
+  			
+  			display: block !important;
   			margin-left: -706px;
   		}
   	}
