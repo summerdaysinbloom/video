@@ -76,7 +76,10 @@ body {
 
 .cbp-fbscroller > nav a {
 	background: rgba(255,255,255,0.6);
+	-webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
 	border-radius: 50%;
+	behavior: url(../lib/PIE.htc);
 	color: transparent;
 	display: block;
 	font-size: 10px;
@@ -680,7 +683,7 @@ a.zoomable:hover span.zoom_icon {
 		-webkit-border-radius: 3px;
 		-moz-border-radius: 3px;
 		border-radius: 3px;
-		behavior: url(../lib/PIE.htc);
+		
 	}
 	a#nav1 span {
 		margin-left: -103px;
