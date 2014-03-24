@@ -675,6 +675,13 @@ a.zoomable:hover span.zoom_icon {
 }
 
 .lt-ie9 .cbp-fbscroller > nav {
+	a {
+		border: 1px solid red;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		behavior: url(../lib/PIE.htc);
+	}
 	a#nav1 span {
 		margin-left: -103px;
 		text-align: right;
