@@ -170,41 +170,41 @@
           var height = $(window).height();
           var bgHeight = height * 5;
 
-          $('#layer').css('height', bgHeight+'px');
+          $('#layer').css('height', bgHeight+135+'px');
 
           if(height < 640 ) {
               $('#fbsection6').removeClass();
-              $('#layer').css('height', bgHeight+'px');
+              $('#layer').css('height', bgHeight+135+'px');
           
           } else if( height > 641 && height < 760 ) {
               $('#fbsection6').removeClass();
               $('#fbsection6').addClass('threeandfour');
 
-              $('#layer').css('height', bgHeight+(height*0.75)+'px');
+              $('#layer').css('height', bgHeight+(height*0.75)+135+'px');
           
           } else if ( height > 761 && height < 910 ) {
               $('#fbsection6').removeClass();
               $('#fbsection6').addClass('half');
 
-              $('#layer').css('height', bgHeight+(height*0.5)+'px');
+              $('#layer').css('height', bgHeight+(height*0.5)+135+'px');
           
           } else if ( height > 911 && height < 960 ) {
               $('#fbsection6').removeClass();
               $('#fbsection6').addClass('twoandfive');
 
-              $('#layer').css('height', bgHeight+(height*0.4)+'px');
+              $('#layer').css('height', bgHeight+(height*0.4)+135+'px');
 
           } else if ( height > 961 && height < 999 ) {
               $('#fbsection6').removeClass();
               $('#fbsection6').addClass('oneandfour');
 
-              $('#layer').css('height', bgHeight+(height*0.25)+'px');
+              $('#layer').css('height', bgHeight+(height*0.25)+135+'px');
 
           } else if ( height > 1001 ) {
               $('#fbsection6').removeClass();
               $('#fbsection6').addClass('oneandten');
 
-              $('#layer').css('height', bgHeight+(height*0.1)+'px');
+              $('#layer').css('height', bgHeight+(height*0.1)+135+'px');
           }
 
       });
@@ -213,7 +213,7 @@
           var height = $(window).height(),
               bgHeight = height * 5;
 
-          $('#layer').css('height', bgHeight+'px');
+          $('#layer').css('height', bgHeight+135+'px');
 
           if(height < 640 ) {              
               $('#fbsection6').removeClass();
