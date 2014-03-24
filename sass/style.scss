@@ -833,6 +833,7 @@ a.zoomable:hover span.zoom_icon {
 	
 	#fbsection5 ul {
 		height: 100px;
+		z-index: 99 !important;
   	a:nth-child(odd) {
   		li {
   			position: absolute;
