@@ -680,6 +680,9 @@ a.zoomable:hover span.zoom_icon {
 	}
 	a img {
 		display: block;
+		left: 0;
+		top: 0;
+		border: 1px solid yellow;
 	}
 }
 
