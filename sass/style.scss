@@ -679,6 +679,7 @@ a.zoomable:hover span.zoom_icon {
 
 .lt-ie9 .cbp-fbscroller > nav {
 	a {
+		background-image: url('../images/selected.png');
 		border: 1px solid red;
 		-webkit-border-radius: 3px;
 		-moz-border-radius: 3px;
