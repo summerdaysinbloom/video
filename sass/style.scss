@@ -679,11 +679,18 @@ a.zoomable:hover span.zoom_icon {
 
 .lt-ie9 .cbp-fbscroller > nav {
 	a {
+		background: none;
 		border: 1px solid red;
 		-webkit-border-radius: 3px;
 		-moz-border-radius: 3px;
 		border-radius: 3px;
-		
+	}
+ 	a {
+		background-image: url(../images/unselected.png) no-repeat center center;
+	}
+  a.cbp-fbcurrent,
+  a:hover {
+		background-image: url(../images/selected.png) no-repeat center center;
 	}
 	a#nav1 span {
 		margin-left: -103px;
