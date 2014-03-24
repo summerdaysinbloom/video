@@ -591,9 +591,7 @@ body {
 	position: relative;
 	top: 30%;
 	width: 50%;
-	height: 45%;
-	border: 1px solid red;
-	margin: 0 auto;
+	height: 45%;	margin: 0 auto;
 	z-index: 9999999 !important;
 	border-radius: 300px;
 	video {
@@ -630,7 +628,6 @@ a {
 
 /* Specific CSS code for the magnifying glass icon */
 a.zoomable {
-	border: 3px solid #fdd;
 	border-radius: 300px;
 	display: block;
 	height: inherit;
@@ -939,23 +936,12 @@ a.zoomable:hover span.zoom_icon {
 
 	/* video */
 	a.zoomable {
-/*		border: none;
 		display: block;
-		height: 140px;
-		margin-left: 245px;
-		margin-top: 300px;
-		padding: 80px;
-		position: relative;
-		width: 140px;*/
-
-		display: block;
-		border: 1px solid #EEFF99;
 		height: 360px;
 		padding: 0;
 		position: relative;
 		text-align: center; 
 		width: 100%;
-		z-index: 10000 !important;
 		-webkit-border-radius: 100px;
 		-moz-border-radius: 100px;
 		border-radius: 100px;
