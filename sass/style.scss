@@ -91,6 +91,9 @@ body {
 	width: 10px;
 	z-index: 100;
 	@include horizontal-center();
+	img {
+		display: none;
+	}
 	span {
 		left: -100px;
 	}
@@ -675,11 +678,13 @@ a.zoomable:hover span.zoom_icon {
 	a:hover span {
 		display: inline-block !important;
 	}
+	a img {
+		display: block;
+	}
 }
 
 .lt-ie9 .cbp-fbscroller > nav {
 	a {
-		background-image: url('../images/selected.png');
 		border: 1px solid red;
 		-webkit-border-radius: 3px;
 		-moz-border-radius: 3px;
