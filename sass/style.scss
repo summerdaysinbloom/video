@@ -726,6 +726,15 @@ a.zoomable:hover span.zoom_icon {
 	}
 }
 
+.lt-ie9 #layer {
+	position: absolute;
+	height: 0;
+	background: none;
+	display: none;
+	width: 0;
+	z-index: -1;
+}
+
 .lt-ie9 {
 	.container {
 		background-size: 100% auto;
@@ -735,27 +744,27 @@ a.zoomable:hover span.zoom_icon {
 		margin: 0 auto;
 	}
 	#fbsection1 {
-		background-image: url(../images/ie-phase1-12.png);
+		background-image: url(../images/ie-phase1-12-e.png);
 		height: 848px;
 		margin: 0 auto;
 	}
 	#fbsection2 {
-		background-image: url(../images/ie-phase2-12.png);
+		background-image: url(../images/ie-phase2-12-e.png);
 		height: 848px;
 		margin: 0 auto;
 	}
 	#fbsection3 {
-		background-image: url(../images/ie-phase3-12.png);
+		background-image: url(../images/ie-phase3-12-e.png);
 		height: 848px;
 		margin: 0 auto;
 	}
 	#fbsection4 {
-		background-image: url(../images/ie-phase5-12.png);
+		background-image: url(../images/ie-phase5-12-e.png);
 		height: 848px;
 		margin: 0 auto;
 	}
 	#fbsection5 {
-		background-image: url(../images/ie-phase6-12.png);
+		background-image: url(../images/ie-phase6-12-e.png);
 		height: 1153px;
 		margin: 0 auto;
 	}
