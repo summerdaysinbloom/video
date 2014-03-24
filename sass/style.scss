@@ -687,12 +687,13 @@ a.zoomable:hover span.zoom_icon {
 	}
  	a {
  		background: #fdd;
-		background-image: url('../images/unselected.png') no-repeat center center;
+		background-image: transparent url('../images/unselected.png');
 	}
   a.cbp-fbcurrent,
   a:hover {
   	background: #fff;
-		background-image: url('../images/selected.png') no-repeat center center;
+		background-image: transparent url('../images/selected.png');
+		color: #fff;
 	}
 	a#nav1 span {
 		margin-left: -103px;
