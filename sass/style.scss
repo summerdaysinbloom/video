@@ -948,12 +948,14 @@ a.zoomable:hover span.zoom_icon {
 		width: 140px;*/
 
 		display: block;
-		border: 1px solid #fdd;
+		border: 3px solid #fdd;
+		height: inherit;
 		padding: 60px 0;
-		text-align: center; width: 200px;
-		-webkit-border-radius: 100px;
-		-moz-border-radius: 100px;
-		border-radius: 100px;
+		text-align: center; 
+		width: inherit;
+		-webkit-border-radius: 300px;
+		-moz-border-radius: 300px;
+		border-radius: 300px;
 		background: #EEFF99;
 		behavior: url(../lib/PIE.htc);
 	}
