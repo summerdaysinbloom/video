@@ -674,26 +674,19 @@ a.zoomable:hover span.zoom_icon {
 		background-color: none;
 	}
 	a span {
-		/*display: none;*/
-		display: inline-block !important;
+		display: none;
 	}
 	a:hover span {
 		display: inline-block !important;
 	}
 	a img {
-		display: block;
+		display: inline-block;
 		left: 0;
 		top: 0;
 	}
 }
 
 .lt-ie9 .cbp-fbscroller > nav {
-	a {
-		-webkit-border-radius: 3px;
-		-moz-border-radius: 3px;
-		border-radius: 3px;
-		color: none;
-	}
 	a#nav1 span {
 		margin-left: -103px;
 		text-align: right;
