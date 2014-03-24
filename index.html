@@ -16,6 +16,15 @@
   	<link href='lib/normalize.css' rel='stylesheet' type='text/css'/>
     <link href='style/style.css' rel='stylesheet' type='text/css'/>
     <script src="lib/modernizr.custom.js"></script>
+    <!--[if lte IE 8]>
+      <script src="lib/jquery.corner.js"></script>
+      <script>
+      $(function(){
+          $('nav a').corner();
+      });
+      </script>
+    <![endif]-->
+
 	</head>
 	<body>
 		<header>
