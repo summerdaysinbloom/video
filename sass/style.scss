@@ -258,6 +258,7 @@ body {
 		font-size: 5.8em;
 		position: absolute;
 		top: 15%;
+		z-index: 0;
 		span {
 			display: block;
 		}
@@ -951,6 +952,7 @@ a.zoomable:hover span.zoom_icon {
 		border: 3px solid #EEFF99;
 		height: 300px;
 		padding: 0;
+		position: relative;
 		text-align: center; 
 		width: 100%;
 		-webkit-border-radius: 100px;
