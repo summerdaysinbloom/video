@@ -109,6 +109,9 @@ body {
 }
 
 .cbp-fbscroller > nav {
+	a.cbp-fbcurrent {
+		background: rgba(255,255,255,1);
+	}
 	a:nth-child(1) span {
 		margin-left: -98px;
 	}
@@ -669,7 +672,8 @@ a.zoomable:hover span.zoom_icon {
 .lt-ie9 .cbp-fbscroller > nav {
 	right: -930px;
 	a,
-	a:hover {
+	a:hover,
+	a.cbp-fbcurrent {
 		background: transparent !important;
 		background-color: none;
 	}
@@ -687,6 +691,9 @@ a.zoomable:hover span.zoom_icon {
 }
 
 .lt-ie9 .cbp-fbscroller > nav {
+	a.cbp-fbcurrent {
+		background: rgba(255,255,255,1);
+	}
 	a#nav1 span {
 		margin-left: -103px;
 		text-align: right;
