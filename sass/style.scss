@@ -668,15 +668,17 @@ a.zoomable:hover span.zoom_icon {
 }
 .lt-ie9 .cbp-fbscroller > nav {
 	right: -930px;
+	a,
+	a:hover {
+		background: rgba(255,255,255,0);
+		background-color: none;
+	}
 	a span {
-		display: none;
+		/*display: none;*/
+		display: inline-block !important;
 	}
 	a:hover span {
 		display: inline-block !important;
-	}
-	a,
-	a:hover {
-		background-color: none;
 	}
 	a img {
 		display: block;
