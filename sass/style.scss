@@ -669,11 +669,10 @@ a.zoomable:hover span.zoom_icon {
 .lt-ie9 .cbp-fbscroller > nav {
 	right: -930px;
 	a span {
-		/*display: none;*/
-		display: block !important;
+		display: none;
 	}
 	a:hover span {
-		display: block !important;
+		display: inline-block !important;
 	}
 }
 
