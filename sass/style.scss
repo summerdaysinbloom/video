@@ -948,7 +948,7 @@ a.zoomable:hover span.zoom_icon {
 		width: 140px;*/
 
 		display: block;
-		border: 3px solid #fdd;
+		border: 3px solid #EEFF99;
 		height: inherit;
 		padding: 60px 0;
 		text-align: center; 
@@ -956,7 +956,6 @@ a.zoomable:hover span.zoom_icon {
 		-webkit-border-radius: 300px;
 		-moz-border-radius: 300px;
 		border-radius: 300px;
-		background: #EEFF99;
 		behavior: url(../lib/PIE.htc);
 	}
 }
