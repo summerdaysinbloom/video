@@ -949,13 +949,13 @@ a.zoomable:hover span.zoom_icon {
 
 		display: block;
 		border: 3px solid #EEFF99;
-		height: inherit;
+		height: 300px;
 		padding: 60px 0;
 		text-align: center; 
-		width: inherit;
-		-webkit-border-radius: 300px;
-		-moz-border-radius: 300px;
-		border-radius: 300px;
+		width: 100%;
+		-webkit-border-radius: 100px;
+		-moz-border-radius: 100px;
+		border-radius: 3100px;
 		behavior: url(../lib/PIE.htc);
 	}
 }
