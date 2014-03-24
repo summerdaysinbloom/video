@@ -678,7 +678,8 @@ a.zoomable:hover span.zoom_icon {
 	a:hover span {
 		display: inline-block !important;
 	}
-	a {
+	a,
+	a:hover {
 		background-color: none;
 	}
 	a img {
