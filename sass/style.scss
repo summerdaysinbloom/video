@@ -670,7 +670,7 @@ a.zoomable:hover span.zoom_icon {
 	right: -930px;
 	a,
 	a:hover {
-		background: rgba(255,255,255,0);
+		background: transparent !important;
 		background-color: none;
 	}
 	a span {
