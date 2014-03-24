@@ -583,13 +583,18 @@ body {
 	width: 450px;
 }
 
+
 #video-wrapper {
 	@include horizontal-center();
 	@include vertical-center();
-	position: absolute;
-	left: 0;
-	right: 0;
+	position: relative;
+	top: 30%;
+	width: 50%;
+	height: 45%;
+	border: 1px solid red;
+	margin: 0 auto;
 	z-index: 9999999 !important;
+	border-radius: 300px;
 	video {
 		margin: 0 auto;
 	}
@@ -627,11 +632,10 @@ a.zoomable {
 	border: 3px solid #fdd;
 	border-radius: 300px;
 	display: block;
-	height: 300px;
-	margin-top: 350px;
-	padding: 80px;
+	height: inherit;
+	padding: 100px;
 	position: relative;
-	width: 300px;
+	width: inherit;
 }
 
 a.zoomable span.playbtn {
@@ -665,7 +669,8 @@ a.zoomable:hover span.zoom_icon {
 .lt-ie9 .cbp-fbscroller > nav {
 	right: -930px;
 	a span {
-		display: none;
+		/*display: none;*/
+		display: block !important;
 	}
 	a:hover span {
 		display: block !important;
