@@ -1,7 +1,7 @@
 <!doctype html>
 <!--[if lt IE 7]>      <html class='no-js lt-ie9 lt-ie8 lt-ie7'> <![endif]-->
 <!--[if IE 7]>         <html class='no-js lt-ie9 lt-ie8'> <![endif]-->
-<!--[if IE 8]>         <html class='lt-ie9'> <![endif]-->
+<!--[if IE 8]>         <html class='no-js lt-ie9'> <![endif]-->
 <!--[if gt IE 8]><!--> 
 <html class='no-js'> <!--<![endif]-->
 	<head>
@@ -17,9 +17,11 @@
     <link href='style/style.css' rel='stylesheet' type='text/css'/>
     <script src="lib/modernizr.custom.js"></script>
     <!--[if lte IE 8]>
+      <script src="lib/jquery.2.0.3.min.js"></script>
       <script src="lib/jquery.corner.js"></script>
       <script>
       $(function(){
+          console.log('ieie');
           $('nav a').corner();
       });
       </script>
