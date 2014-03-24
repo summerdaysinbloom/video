@@ -678,21 +678,22 @@ a.zoomable:hover span.zoom_icon {
 	a:hover span {
 		display: inline-block !important;
 	}
+	a {
+		background-color: none;
+	}
 	a img {
 		display: block;
 		left: 0;
 		top: 0;
-		border: 1px solid yellow;
 	}
 }
 
 .lt-ie9 .cbp-fbscroller > nav {
 	a {
-		border: 1px solid red;
 		-webkit-border-radius: 3px;
 		-moz-border-radius: 3px;
 		border-radius: 3px;
-		color: #A2A6A9;
+		color: none;
 	}
 	a#nav1 span {
 		margin-left: -103px;
