@@ -442,7 +442,6 @@ body {
 		width: 50%;
 		z-index: 0;
 	}
-
 }
 
 #fbsection5 .content-layer {
@@ -856,6 +855,23 @@ a.zoomable:hover span.zoom_icon {
 		}
 		p {
 			margin: 60px auto 0;
+		}
+		#flashContent_left {
+			display: block;
+			left: -100px;
+			position: absolute;
+			right: 0;
+			top: 481px;
+			width: 50%;
+			z-index: 0;
+		}
+		#flashContent_right {
+			display: block;
+			position: absolute;
+			right: 0;
+			top: 50%;
+			width: 50%;
+			z-index: 0;
 		}
 	}
 
