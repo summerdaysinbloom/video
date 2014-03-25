@@ -7,11 +7,11 @@ html, body,
 }
 
 #layer {
-	color: #ddd;
-	position: absolute;
-	height: 100%;
 	background: #A2A6A9 url(../images/background.jpg);
 	background-repeat: repeat-y;
+	color: #ddd;
+	height: 100%;
+	position: absolute;
 	width: inherit;
 	z-index: -1;
 }
