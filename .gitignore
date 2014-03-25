@@ -1,0 +1,9 @@
+
+bower_components/*
+node_modules/*
+./sass-cache
+
+*.mp4
+*.webm
+*.mov
+*.avi
