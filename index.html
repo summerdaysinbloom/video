@@ -250,7 +250,7 @@
 
           if(height < 640 ) {
               $('#fbsection6').removeClass();
-              $('#layer').css('height', bgHeight+135+'px');
+              $('#layer').css('height', bgHeight+(height*1)+135+'px');
           
           } else if( height > 641 && height < 760 ) {
               $('#fbsection6').removeClass();
@@ -291,10 +291,11 @@
 
           $('#layer').css('height', bgHeight+135+'px');
 
-          if(height < 640 ) {              
+          if(height < 640 ) {
+              console.log('height', height);
               $('#fbsection6').removeClass();
 
-              $('#layer').css('height', bgHeight+135+'px');
+              $('#layer').css('height', bgHeight+(height*1)+135+'px');
           
           } else if( height > 641 && height < 760 ) {
               $('#fbsection6').removeClass();
