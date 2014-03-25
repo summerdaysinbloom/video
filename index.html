@@ -281,6 +281,9 @@
               $('#fbsection6').addClass('oneandten');
 
               $('#layer').css('height', bgHeight+(height*0.1)+135+'px');
+          } else if ( height < 560 ) {
+              $('#fbsection6').removeClass();
+              $('#layer').css('height', bgHeight+(height*1.5)+135+'px');
           }
 
       });
@@ -291,11 +294,12 @@
 
           $('#layer').css('height', bgHeight+135+'px');
 
-          if(height < 640 ) {
-              console.log('height', height);
+          // min break point is 560px
+          if( height < 640 ) {
               $('#fbsection6').removeClass();
 
               $('#layer').css('height', bgHeight+(height*1)+135+'px');
+              $('footer').css('top','0');
           
           } else if( height > 641 && height < 760 ) {
               $('#fbsection6').removeClass();
