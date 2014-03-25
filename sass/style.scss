@@ -673,7 +673,6 @@ a.zoomable {
 }
 
 a.zoomable span.playbtn {
-	background:url("../images/play_btn.png") no-repeat center center;
   display:block;
   height:100%;
   left:0;
@@ -765,27 +764,27 @@ a.zoomable:hover span.zoom_icon {
 		margin: 0 auto;
 	}
 	#fbsection1 {
-		background-image: url(../images/ie-phase1-12-e.jpg);
+		background-image: url(../images/ie-phase1.jpg);
 		height: 848px;
 		margin: 0 auto;
 	}
 	#fbsection2 {
-		background-image: url(../images/ie-phase2-12-e.jpg);
+		background-image: url(../images/ie-phase2.jpg);
 		height: 848px;
 		margin: 0 auto;
 	}
 	#fbsection3 {
-		background-image: url(../images/ie-phase3-12-e.jpg);
+		background-image: url(../images/ie-phase3.jpg);
 		height: 848px;
 		margin: 0 auto;
 	}
 	#fbsection4 {
-		background-image: url(../images/ie-phase5-12-e.jpg);
+		background-image: url(../images/ie-phase5.jpg);
 		height: 848px;
 		margin: 0 auto;
 	}
 	#fbsection5 {
-		background-image: url(../images/ie-phase6-12-e.jpg);
+		background-image: url(../images/ie-phase6.jpg);
 		height: 1153px;
 		margin: 0 auto;
 	}
@@ -996,6 +995,5 @@ a.zoomable:hover span.zoom_icon {
 		-webkit-border-radius: 100px;
 		-moz-border-radius: 100px;
 		border-radius: 100px;
-		behavior: url(../lib/PIE.htc);
 	}
 }
