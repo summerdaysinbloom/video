@@ -93,7 +93,6 @@ body {
 	-webkit-border-radius: 50%;
    -moz-border-radius: 50%;
 	border-radius: 50%;
-	behavior: url(../lib/PIE.htc);
 	color: transparent;
 	display: block;
 	font-size: 10px;
@@ -153,10 +152,6 @@ body {
 	height: 100%;
 	width: 997px;
 	margin: 0 auto;
-	section {
-		/*background: url(../images/background.jpg);*/
-		/*background-color: #A2A6A9;*/
-	}
 }
 
 #fbsection1 {
