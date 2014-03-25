@@ -427,7 +427,7 @@ body {
 	}
 	#flashContent_left {
 		display: block;
-		left: 0;
+		left: -10px;
 		position: absolute;
 		right: 0;
 		top: 50%;
@@ -437,7 +437,7 @@ body {
 	#flashContent_right {
 		display: block;
 		position: absolute;
-		right: 0;
+		right: -10px;
 		top: 50%;
 		width: 50%;
 		z-index: 0;
