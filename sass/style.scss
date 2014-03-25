@@ -833,18 +833,13 @@ a.zoomable:hover span.zoom_icon {
 		width: 70%;
 		h1 {
 			margin: 0 auto;
-			margin-top: 120px;
+			margin-top: 40px;
 			width: 80%;
 		}
 		h2 {
-			font-weight: 500;
-		  left: 0;
-		  margin: 0 auto;
 		  position: absolute;
-		  right: 0;
-		  top: 400px;
+		  top: 380px;
 		  width: 60%;
-		  @include vertical-center();
 			span.right {
 				float: right;
 				margin-top: -10px;
@@ -854,11 +849,11 @@ a.zoomable:hover span.zoom_icon {
 			}
 		}
 		p {
-			margin: 60px auto 0;
+			margin: 0 auto;
 		}
 		#flashContent_left {
 			display: block;
-			left: -100px;
+			left: -130px;
 			position: absolute;
 			right: 0;
 			top: 481px;
