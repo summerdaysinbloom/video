@@ -11,6 +11,7 @@ html, body,
 	background-repeat: repeat-y;
 	color: #ddd;
 	height: 100%;
+	min-height: 2763px;
 	position: absolute;
 	width: inherit;
 	z-index: -1;
@@ -128,12 +129,10 @@ body {
 		margin-left: -86px;
 	}
 	a:nth-child(3) span {
-		margin-left: -105px;
-	}
-	a:nth-child(4) span {
+		/*margin-left: -105px;*/
 		margin-left: -113px;
 	}
-	a:nth-child(5) span {
+	a:nth-child(4) span {
 		margin-left: -83px;
 	}
 }
@@ -178,9 +177,6 @@ body {
 	background-image: url(../images/test5.png);
 }
 
-#fbsection6 {
-}
-
 /* 1/10 */
 #fbsection6.oneandten {
 	background-image: url(../images/oneandten.png);
@@ -213,7 +209,6 @@ body {
 
 /* 1 */
 #fbsection6 {
-	/*background-image: url(../images/phase6-12.png);*/
 	background-image: url(../images/test5.png);
 	height: 100%;
 }
@@ -690,35 +685,27 @@ a.zoomable {
 	padding: 100px;
 	position: relative;
 	width: inherit;
-}
-
-a.zoomable span.playbtn {
-  display:block;
-  height:100%;
-  left:0;
-  opacity:0.8;
-  position:absolute;
-  top:0;  
-  width:100%;
-  -o-transition:opacity 0.25s;
-  -moz-transition:opacity 0.25s;
-  -webkit-transition:opacity 0.25s;
-  transition:opacity 0.25s;
-}
-
-a.zoomable:hover span.zoom_icon {
-	opacity:1
+	span.playbtn {
+	  display:block;
+	  height:100%;
+	  left:0;
+	  opacity:0.8;
+	  position:absolute;
+	  top:0;  
+	  width:100%;
+	  -o-transition:opacity 0.25s;
+	  -moz-transition:opacity 0.25s;
+	  -webkit-transition:opacity 0.25s;
+	  transition:opacity 0.25s;
+	}
+	&:hover span.zoom_icon {
+		opacity:1
+	}
 }
 
 /*
  * ONLY FOR IE8
  */
-
-.lt-ie8 {
-	body {
-		background: #000;
-	}
-}
 .lt-ie9 .cbp-fbscroller > nav {
 	right: -930px;
 	a,
@@ -826,7 +813,6 @@ a.zoomable:hover span.zoom_icon {
 			width: 80%;
 		}
 	}
-
 	#fbsection4 .content-layer {
 		width: 70%;
 		h1 {
@@ -867,7 +853,6 @@ a.zoomable:hover span.zoom_icon {
 			z-index: 0;
 		}
 	}
-
 	#fbsection5 ul {
 		left: 25px;
 		list-style: none;
@@ -909,8 +894,7 @@ a.zoomable:hover span.zoom_icon {
 		a:hover li {
 			display: block;
 		}
-	}
-	
+	}	
 	#fbsection5 ul {
 		height: 100px;
 		z-index: 99 !important;
@@ -1004,7 +988,6 @@ a.zoomable:hover span.zoom_icon {
   		}
   	}
   }
-	/* video */
 	a.zoomable {
 		display: block;
 		height: 360px;
