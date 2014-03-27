@@ -30,27 +30,6 @@ html, body,
   align-items: center;
 }
 
-@mixin vertical-left() {
-  -webkit-box-pack: flex-start;
-  -moz-box-pack: flex-start;
-  -ms-flex-pack: flex-start;
-  -webkit-justify-content: flex-start;
-  justify-content: flex-start;
-}
-
-@mixin vertical-right() {
-	display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: flex-end;
-  -moz-box-pack: flex-end;
-  -ms-flex-pack: flex-end;
-  -webkit-justify-content: flex-end;
-  justify-content: flex-end;
-}
-
 @mixin vertical-center() {
   -webkit-box-pack: center;
   -moz-box-pack: center;
@@ -676,10 +655,7 @@ footer {
 #footer .info a:active, #footer .info a:hover { color:#FFFFFF; text-decoration: underline;}
 #footer .fm { margin-top:22px;}
 
-/* 
- * PLEASE DO NOT TOUCH !!!
- * For video player and button setting
- */
+/* For video player and button setting */
 a {
   color:#1185ff;
 }
@@ -710,9 +686,7 @@ a.zoomable {
 	}
 }
 
-/*
- * ONLY FOR IE8
- */
+/* ONLY FOR IE8 */
 .lt-ie9 .cbp-fbscroller > nav {
 	right: -930px;
 	a,
