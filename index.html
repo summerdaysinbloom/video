@@ -27,7 +27,7 @@
 				<nav>
 					<a id='nav1' href="#fbsection1" class="cbp-fbcurrent"><img src='images/selected.png'/><span>Performance</span></a>
 					<a id='nav2' href="#fbsection2"><img src='images/selected.png' /><span>Experiment</span></a>
-					<a id='nav3' href="#fbsection3"><img src='images/selected.png' /><span>Jenson.Button</span></a>
+					<!-- <a id='nav3' href="#fbsection3"><img src='images/selected.png' /><span>Jenson.Button</span></a> -->
 					<a id='nav4' href="#fbsection4"><img src='images/selected.png' /><span>Sound.of.mobil1</span></a>
 					<a id='nav5' href="#fbsection5"><img src='images/selected.png' /><span>Motor.oils</span></a>
 				</nav>
@@ -57,13 +57,13 @@
         	  <p>What happens when Jenson Button pushes the engine of his MP4-29 to extremes? What kind of sounds does it make? We won’t give it away, but we will say, it is beautiful.</p>
         	</div>
 				</section>
-				<section id="fbsection3">
+				<!-- <section id="fbsection3">
 					<div class='content-layer'>
        		  <h1><span class='left'>Jenson</span><span class='middle'>knows</span><span class='right'>the Sound</span></h1>
        		  <p id='parag1'>Whether during F1 testing, or on the last lap of the last race of the year, Jenson Button knows a thing or two about how an engine should sound.</p>
             <p id='parag2'>His new MP4-29 uses Mobil 1, the only lubricant the McLaren team trusts to take the extreme abuse of grueling F1 tracks around the world.</p>
        		</div>
-				</section>
+				</section> -->
 				<section id="fbsection4">
           <div class='content-layer'>
             <h1>The Sounds of Mobil 1</h1>
@@ -218,114 +218,36 @@
 				</section>
         <section id="fbsection6"></section>
         <footer id='footer'>
-            <img src='images/footer.jpg' />
-          </footer> 
+          <!-- <img src='images/footer.jpg' /> -->
+          <!-- @aimee: from the existing site -->
+          <div class="info">
+            <a href="http://www.exxonmobil.com/Corporate/">Exxon Mobil Corporation</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="http://www.exxonmobil.com/Corporate/Imports/globalwebsites/about_where_countries.aspx"><img src="images/footer_globe.gif" width="15" height="15" alt="" border="0" /></a>&nbsp; 
+            <a href="http://www.exxonmobil.com/Corporate/Imports/globalwebsites/about_where_countries.aspx">Global Websites</a> 
+            <br/>
+            <a href="http://www.exxonmobil.co.uk/Global-All/Legal/copyright.aspx">Copyright</a>&nbsp;&nbsp;
+            <a href="http://www.exxonmobil.com/Global-All/Legal/TC_Global_English.aspx">Terms & Conditions</a>& nbsp;&nbsp;
+            <a href="http://www.exxonmobil.co.uk/Global-All/Legal/privacy.aspx">Privacy Policy</a>&nbsp;&nbsp;
+            <a href="http://www.exxonmobil.com/Global-All/Legal/accessibility.aspx">Accessibility</a>
+            <br/>
+            <a href="http://www.exxonmobil.com/Corporate/"><img src="images/footer_exxon.png" alt="" width=" 64" height="25" border="0" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="http://www.exxonmobil.com/Corporate/default.aspx"><img src="images/footer_esso.png" alt="" width="34" height="25" border="0" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="http://www.mobil.com/glp/Default.aspx?country=EN&language="><img src="images/footer_mobil.png" alt="" width="47" height="25" border="0" /></a>
+          </div>
+        </footer> 
 			</div>
 		</div>
-		<!-- jquery -->
-		<script src="lib/jquery.2.0.3.min.js"></script>
-		<!-- jquery.easing by http://gsgd.co.uk/ : http://gsgd.co.uk/sandbox/jquery/easing/ -->
+    <script src="assets/jquery.2.0.3.min.js"></script>
+    <script src="assets/output.min.js"></script>
+		<!-- <script src="lib/jquery.2.0.3.min.js"></script>
 		<script src="lib/jquery.easing.min.js"></script>
-		<!-- waypoints jQuery plugin by http://imakewebthings.com/ : http://imakewebthings.com/jquery-waypoints/ -->
 		<script src="lib/waypoints.min.js"></script>
-		<script src="lib/cbpFixedScrollLayout.min.js"></script>
-    <!-- video -->
-    <script type="text/javascript" src="https://cdn.sublimevideo.net/js/v6xdy9my.js"></script>
+		<script src="lib/cbpFixedScrollLayout.min.js"></script> -->
+    <!-- // <script type="text/javascript" src="https://cdn.sublimevideo.net/js/v6xdy9my.js"></script> -->
 		<script>
 			$(function() {
 				  cbpFixedScrollLayout.init();
 			});
-
-      $(window).load(function() {
-          var height = $(window).height();
-          var bgHeight = height * 5;
-
-          $('#layer').css('height', bgHeight+135+'px');
-
-          if(height < 640 ) {
-              $('#fbsection6').removeClass();
-              $('#layer').css('height', bgHeight+(height*1)+135+'px');
-          
-          } else if( height > 641 && height < 760 ) {
-              $('#fbsection6').removeClass();
-              $('#fbsection6').addClass('threeandfour');
-
-              $('#layer').css('height', bgHeight+(height*0.75)+135+'px');
-          
-          } else if ( height > 761 && height < 910 ) {
-              $('#fbsection6').removeClass();
-              $('#fbsection6').addClass('half');
-
-              $('#layer').css('height', bgHeight+(height*0.5)+135+'px');
-          
-          } else if ( height > 911 && height < 960 ) {
-              $('#fbsection6').removeClass();
-              $('#fbsection6').addClass('twoandfive');
-
-              $('#layer').css('height', bgHeight+(height*0.4)+135+'px');
-
-          } else if ( height > 961 && height < 999 ) {
-              $('#fbsection6').removeClass();
-              $('#fbsection6').addClass('oneandfour');
-
-              $('#layer').css('height', bgHeight+(height*0.25)+135+'px');
-
-          } else if ( height > 1001 ) {
-              $('#fbsection6').removeClass();
-              $('#fbsection6').addClass('oneandten');
-
-              $('#layer').css('height', bgHeight+(height*0.1)+135+'px');
-          } else if ( height < 560 ) {
-              $('#fbsection6').removeClass();
-              $('#layer').css('height', bgHeight+(height*1.5)+135+'px');
-          }
-
-      });
-
-      $(window).resize(function() {
-          var height = $(window).height(),
-              bgHeight = height * 5;
-
-          $('#layer').css('height', bgHeight+135+'px');
-
-          // min break point is 560px
-          if( height < 640 ) {
-              $('#fbsection6').removeClass();
-
-              $('#layer').css('height', bgHeight+(height*1)+135+'px');
-              $('footer').css('top','0');
-          
-          } else if( height > 641 && height < 760 ) {
-              $('#fbsection6').removeClass();
-              $('#fbsection6').addClass('threeandfour');
-
-              $('#layer').css('height', bgHeight+(height*0.75)+135+'px');
-
-          } else if (height > 761 && height < 910 ) {
-              $('#fbsection6').removeClass();
-              $('#fbsection6').addClass('half');
-
-              $('#layer').css('height', bgHeight+(height*0.5)+135+'px');
-
-          } else if ( height > 911 && height < 960 ) {
-              $('#fbsection6').removeClass();
-              $('#fbsection6').addClass('twoandfive');
-
-              $('#layer').css('height', bgHeight+(height*0.4)+135+'px');
-
-          } else if ( height > 961 && height < 999 ) {
-              $('#fbsection6').removeClass();
-              $('#fbsection6').addClass('oneandfour');
-
-              $('#layer').css('height', bgHeight+(height*0.25)+135+'px');
-
-          } else if ( height > 1001 ) {
-              $('#fbsection6').removeClass();
-              $('#fbsection6').addClass('oneandten');
-
-              $('#layer').css('height', bgHeight+(height*0.1)+135+'px');
-          }
-      });
 		</script>
 	</body>
 </html>

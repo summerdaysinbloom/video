@@ -653,11 +653,31 @@ footer {
 	width: 997px;
 }
 
+#footer { 
+	width:997px; 
+	clear:both; 
+	/*padding:15px 0px 20px 0px; */
+	text-align:center; 
+	font-family: Arial,Helvetica,Sans-Serif; 
+	font-size: 11px; 
+	line-height: 2em; 
+	color:#FFFFFF; 
+	border-top:1px solid #FFFFFF; 
+	font-weight:bold;
+	/* @aimee : only for motor site */
+	background: #A2A6A9;
+	margin: 0 !important;
+	padding:15px 0px 0px 0px !important;
+}
+#footer .info { display:inline;}
+#footer .info a:visited, #footer .info a:link { color:#FFFFFF; text-decoration: none;}
+#footer .info a:active, #footer .info a:hover { color:#FFFFFF; text-decoration: underline;}
+#footer .fm { margin-top:22px;}
+
 /* 
  * PLEASE DO NOT TOUCH !!!
  * For video player and button setting
  */
-
 a {
   color:#1185ff;
 }
