@@ -425,6 +425,13 @@ body {
 	}
 }
 
+@-moz-document url-prefix() { 
+  #bg_left,
+	#bg_right{
+		margin-top: -5px;
+	}
+}
+
 #fbsection5 .content-layer {
 	height: 100%;
 	left: 0;
