@@ -425,13 +425,6 @@ body {
 	}
 }
 
-@-moz-document url-prefix() { 
-  #bg_left,
-	#bg_right{
-		margin-top: -5px;
-	}
-}
-
 #fbsection5 .content-layer {
 	height: 100%;
 	left: 0;
@@ -634,6 +627,13 @@ body {
 	border-radius: 300px;
 	video {
 		margin: 0 auto;
+	}
+}
+
+@-moz-document url-prefix() { 
+  #fbsection4 .content-layer #bg_left,
+	#fbsection4 .content-layer #bg_right{
+		margin-top: -5px;
 	}
 }
 
