@@ -747,13 +747,14 @@ a.zoomable {
 	.container {
 		background-size: 100% auto;
 		background-repeat: repeat;
-		height: 3813x;
+		height: 3813px;
 		width: 997px;
 		margin: 0 auto;
 	}
 	#fbsection1 {
 		background-image: url(../images/test-ie-phase1.jpg);
-		height: 848px;
+		/*height: 848px;*/
+		height: 783px;
 		margin: 0 auto;
 	}
 	#fbsection2 {
