@@ -101,7 +101,7 @@ $(window).load(function() {
         $('#fbsection6').removeClass();
         $('#fbsection6').addClass('half');
         newHeight = bgHeight+(height*0.5)+135;
-        console.log('761-910 : ',newHeight);
+
         $('#layer').css('height', newHeight);
 
     } else if ( height > 911 && height < 960 ) {
@@ -115,7 +115,7 @@ $(window).load(function() {
         $('#fbsection6').removeClass();
         $('#fbsection6').addClass('oneandfour');
         newHeight = bgHeight+(height*0.25)+135;
-        console.log('961-999 : ',newHeight);
+
         $('#layer').css('height', newHeight);
 
     } else if ( height > 1001 ) {
@@ -153,8 +153,6 @@ $(window).resize(function() {
         $('#fbsection6').removeClass();
         $('#fbsection6').addClass('half');
         newHeight = bgHeight+(height*0.5)+135;
-
-        console.log('761-910[R] : ',newHeight);
 
         $('#layer').css('height', newHeight);
 
