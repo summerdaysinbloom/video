@@ -77,106 +77,84 @@ var cbpFixedScrollLayout = (function() {
  */
 var cbpFixedScrollLayout=(function(){var a={$sections:$("#cbp-fbscroller > section"),$navlinks:$("#cbp-fbscroller > nav:first > a"),currentLink:0,$body:$("html, body"),animspeed:650,animeasing:"easeInOutExpo"};function d(){a.$navlinks.on("click",function(){c(a.$sections.eq($(this).index()).offset().top);return false});a.$sections.waypoint(function(e){if(e==="down"){b($(this))}},{offset:"30%"}).waypoint(function(e){if(e==="up"){b($(this))}},{offset:"-30%"});$(window).on("debouncedresize",function(){c(a.$sections.eq(a.currentLink).offset().top)})}function b(e){a.$navlinks.eq(a.currentLink).removeClass("cbp-fbcurrent");a.currentLink=e.index("section");a.$navlinks.eq(a.currentLink).addClass("cbp-fbcurrent")}function c(e){a.$body.stop().animate({scrollTop:e},a.animspeed,a.animeasing)}return{init:d}})();
 $(window).load(function() {
-    var height = $(window).height(),
-        bgHeight = height * 4,
-        newHeight;
+    var height = $(window).height();
 
-    $('#layer').css('height', bgHeight+135+'px');
-
-    if( height < 640 ) {
-        $('#fbsection6').removeClass();
-        newHeight = bgHeight+(height*1)+135;
-
-        $('#layer').css('height', newHeight );
-        $('footer').css('top','0');
+    if( height < 560 ) {
+        $('section#fbsection5').removeClass();
+        $('section#fbsection5').addClass('p200');
     
-    } else if( height > 641 && height < 760 ) {
-        $('#fbsection6').removeClass();
-        $('#fbsection6').addClass('threeandfour');
-        newHeight = bgHeight+(height*0.75)+135;
+    } else if( height > 561 && height < 620 ) {
+        $('section#fbsection5').removeClass();
+        $('section#fbsection5').addClass('p190');
 
-        $('#layer').css('height', newHeight);
+    } else if (height > 621 && height < 780 ) {
+        $('section#fbsection5').removeClass();
+        $('section#fbsection5').addClass('p180');
 
-    } else if (height > 761 && height < 910 ) {
-        $('#fbsection6').removeClass();
-        $('#fbsection6').addClass('half');
-        newHeight = bgHeight+(height*0.5)+135;
+    } else if ( height > 781 && height < 840 ) {
+        $('section#fbsection5').removeClass();
+        $('section#fbsection5').addClass('p170');
 
-        $('#layer').css('height', newHeight);
+    } else if ( height > 841 && height < 900 ) {
+        $('section#fbsection5').removeClass();
+        $('section#fbsection5').addClass('p150');
 
-    } else if ( height > 911 && height < 960 ) {
-        $('#fbsection6').removeClass();
-        $('#fbsection6').addClass('twoandfive');
-        newHeight = bgHeight+(height*0.4)+135;
+    } else if ( height > 901 && height < 960 ) {
+        $('section#fbsection5').removeClass();
+        $('section#fbsection5').addClass('p140');
 
-        $('#layer').css('height', newHeight);
+    } else if ( height > 961 && height < 1020 ) {
+        $('section#fbsection5').removeClass();
+        $('section#fbsection5').addClass('p130');
 
-    } else if ( height > 961 && height < 999 ) {
-        $('#fbsection6').removeClass();
-        $('#fbsection6').addClass('oneandfour');
-        newHeight = bgHeight+(height*0.25)+135;
+    } else if ( height > 1021 && height < 1080 ) {
+        $('section#fbsection5').removeClass();
+        $('section#fbsection5').addClass('p120');
 
-        $('#layer').css('height', newHeight);
-
-    } else if ( height > 1001 ) {
-        $('#fbsection6').removeClass();
-        $('#fbsection6').addClass('oneandten');
-        newHeight = bgHeight+(height*0.1)+135;
-
-        $('#layer').css('height', newHeight);
+    } else if ( height > 1081 ) {
+        $('section#fbsection5').removeClass();
+        $('section#fbsection5').addClass('p110');
     }
 });
 
 $(window).resize(function() {
-    var height = $(window).height(),
-        bgHeight = height * 4,
-        newHeight;
-
-    $('#layer').css('height', bgHeight+135+'px');
-
-    // min break point is 560px
-    if( height < 640 ) {
-        $('#fbsection6').removeClass();
-        newHeight = bgHeight+(height*1)+135;
-
-        $('#layer').css('height', resetHeight );
-        $('footer').css('top','0');
+    var height = $(window).height();
     
-    } else if( height > 641 && height < 760 ) {
-        $('#fbsection6').removeClass();
-        $('#fbsection6').addClass('threeandfour');
-        newHeight = bgHeight+(height*0.75)+135;
+    if( height < 560 ) {
+        $('section#fbsection5').removeClass();
+        $('section#fbsection5').addClass('p200');
+    
+    } else if( height > 561 && height < 620 ) {
+        $('section#fbsection5').removeClass();
+        $('section#fbsection5').addClass('p190');
 
-        $('#layer').css('height', newHeight);
+    } else if (height > 621 && height < 780 ) {
+        $('section#fbsection5').removeClass();
+        $('section#fbsection5').addClass('p180');
 
-    } else if (height > 761 && height < 910 ) {
-        $('#fbsection6').removeClass();
-        $('#fbsection6').addClass('half');
-        newHeight = bgHeight+(height*0.5)+135;
+    } else if ( height > 781 && height < 840 ) {
+        $('section#fbsection5').removeClass();
+        $('section#fbsection5').addClass('p170');
 
-        $('#layer').css('height', newHeight);
+    } else if ( height > 841 && height < 900 ) {
+        $('section#fbsection5').removeClass();
+        $('section#fbsection5').addClass('p150');
 
-    } else if ( height > 911 && height < 960 ) {
-        $('#fbsection6').removeClass();
-        $('#fbsection6').addClass('twoandfive');
-        newHeight = bgHeight+(height*0.4)+135;
+    } else if ( height > 901 && height < 960 ) {
+        $('section#fbsection5').removeClass();
+        $('section#fbsection5').addClass('p140');
 
-        $('#layer').css('height', newHeight);
+    } else if ( height > 961 && height < 1020 ) {
+        $('section#fbsection5').removeClass();
+        $('section#fbsection5').addClass('p130');
 
-    } else if ( height > 961 && height < 999 ) {
-        $('#fbsection6').removeClass();
-        $('#fbsection6').addClass('oneandfour');
-        newHeight = bgHeight+(height*0.25)+135;
-        console.log('961-999[R] : ',newHeight);
-        
-        $('#layer').css('height', newHeight);
+    } else if ( height > 1021 && height < 1080 ) {
+        $('section#fbsection5').removeClass();
+        $('section#fbsection5').addClass('p120');
 
-    } else if ( height > 1001 ) {
-        $('#fbsection6').removeClass();
-        $('#fbsection6').addClass('oneandten');
-        newHeight = bgHeight+(height*0.1)+135;
-
-        $('#layer').css('height', newHeight);
+    } else if ( height > 1081 ) {
+        $('section#fbsection5').removeClass();
+        $('section#fbsection5').addClass('p110');
     }
 });
 /*
