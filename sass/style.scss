@@ -860,6 +860,10 @@ a.zoomable {
 }
 
 .lt-ie9 {
+	#bg_left,
+	#bg_right {
+		display: none;
+	}
 	.container {
 		background-size: 100% auto;
 		background-repeat: repeat;
