@@ -694,35 +694,9 @@ body {
 	margin: 0 auto;
 	z-index: 9999999 !important;
 	border-radius: 300px;
-	#popup-video {
-	  display: none;
-	}
-	#popup-video.open {	
-	  display: block;
-	  height: 100%;
-	  position: relative;
-	  width: 100%;
-	}
 /*	video {
 	  margin: 0 auto;
 	}*/
-}
-
-#openVideoBtn {
-	border: 1px solid red;
-	border-radius: 300px;
-	display: block;
-	height: 100%;
-	left: 200px;
-	position: absolute;
-	width: 50%;
-}
-
-#closeVideoBtn {
-	border: 1px solid green;
-	height: 100%;
-	position: relative;
-	width: 100%;
 }
 
 @-moz-document url-prefix() { 
