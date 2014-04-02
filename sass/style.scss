@@ -164,82 +164,67 @@ body {
 	/*background-image: url(../images/phase1-12.png);*/
 	/*background-image: url(../images/test1.png);*/
 	/*background: #A2A6A9 url(../images/background.jpg);*/
-	background-color: #A2A6A9;
 	background-image: url(../images/test1.png);
 }
 
 #fbsection2 {
 	/*background-image: url(../images/phase2-13.png);*/
-	background-color: #A2A6A9;
 	background-image: url(../images/test2.png);
 }
 
 #fbsection3 {
 	/*background-image: url(../images/phase3-12.png);*/
-	background-color: #A2A6A9;
 	background-image: url(../images/test3.png);
 }
 
 #fbsection4 {
 	/*background-image: url(../images/phase5-12.png);*/
-	background-color: #A2A6A9;
 	background-image: url(../images/test4.png);
 }
 
 #fbsection5.p110 {
 	/*background-image: url(../images/phase6-12.png);*/
-	background-color: #A2A6A9;
 	background-image: url(../images/test5-110.png);
 }
 #fbsection5.p120 {
 	/*background-image: url(../images/phase6-12.png);*/
-	background-color: #A2A6A9;
 	background-image: url(../images/test5-120.png);
 }
 #fbsection5.p130 {
 	/*background-image: url(../images/phase6-12.png);*/
-	background-color: #A2A6A9;
 	background-image: url(../images/test5-130.png);
 }
 #fbsection5.p140 {
 	/*background-image: url(../images/phase6-12.png);*/
-	background-color: #A2A6A9;
 	background-image: url(../images/test5-140.png);
 }
 #fbsection5.p150 {
 	/*background-image: url(../images/phase6-12.png);*/
-	background-color: #A2A6A9;
 	background-image: url(../images/test5-150.png);
 }
 #fbsection5.p160 {
 	/*background-image: url(../images/phase6-12.png);*/
-	background-color: #A2A6A9;
 	background-image: url(../images/test5-160.png);
 }
 #fbsection5.p170 {
 	/*background-image: url(../images/phase6-12.png);*/
-	background-color: #A2A6A9;
 	background-image: url(../images/test5-170.png);
 }
 #fbsection5.p180 {
 	/*background-image: url(../images/phase6-12.png);*/
-	background-color: #A2A6A9;
 	background-image: url(../images/test5-180.png);
 }
 #fbsection5.p190 {
 	/*background-image: url(../images/phase6-12.png);*/
-	background-color: #A2A6A9;
 	background-image: url(../images/test5-190.png);
 }
 #fbsection5.p200 {
 	/*background-image: url(../images/phase6-12.png);*/
-	background-color: #A2A6A9;
 	background-image: url(../images/test5-200.png);
 }
 
 /* 1/10 */
 #fbsection6.oneandten {
-	background-color: #A2A6A9;
 	background-image: url(../images/oneandten.png);
 	height: 10%;
 }
@@ -270,13 +255,6 @@ body {
 	background-color: #A2A6A9;
 	background-image: url(../images/threeandfour.png);
 	height: 75%;
-}
-
-/* 1 */
-#fbsection6 {
-	background-color: #A2A6A9;
-	background-image: url(../images/test5.png);
-	height: 100%;
 }
 
 .content-layer {
@@ -817,15 +795,6 @@ a.zoomable {
 		margin-left: -88px;
 		text-align: right;
 	}
-}
-
-.lt-ie9 #layer {
-	position: absolute;
-	height: 0;
-	background: none;
-	display: none;
-	width: 0;
-	z-index: -1;
 }
 
 .lt-ie9 {
