@@ -79,83 +79,77 @@ var cbpFixedScrollLayout=(function(){var a={$sections:$("#cbp-fbscroller > secti
 $(window).load(function() {
     var height = $(window).height();
 
-    if( height < 560 ) {
+    if( height > 560 && height < 640 ) {
         $('section#fbsection5').removeClass();
         $('section#fbsection5').addClass('p200');
-    
-    } else if( height > 561 && height < 620 ) {
-        $('section#fbsection5').removeClass();
-        $('section#fbsection5').addClass('p190');
 
-    } else if (height > 621 && height < 780 ) {
+    } else if (height > 641 && height < 700 ) {
         $('section#fbsection5').removeClass();
         $('section#fbsection5').addClass('p180');
 
-    } else if ( height > 781 && height < 840 ) {
+    } else if (height > 701 && height < 780 ) {
         $('section#fbsection5').removeClass();
-        $('section#fbsection5').addClass('p170');
+        $('section#fbsection5').addClass('p160');
 
-    } else if ( height > 841 && height < 900 ) {
+    } else if ( height > 781 && height < 840 ) {
         $('section#fbsection5').removeClass();
         $('section#fbsection5').addClass('p150');
 
-    } else if ( height > 901 && height < 960 ) {
+    } else if ( height > 841 && height < 900 ) {
         $('section#fbsection5').removeClass();
         $('section#fbsection5').addClass('p140');
 
-    } else if ( height > 961 && height < 1020 ) {
+    } else if ( height > 901 && height < 960 ) {
         $('section#fbsection5').removeClass();
         $('section#fbsection5').addClass('p130');
 
-    } else if ( height > 1021 && height < 1080 ) {
+    } else if ( height > 961 && height < 1020 ) {
         $('section#fbsection5').removeClass();
         $('section#fbsection5').addClass('p120');
 
-    } else if ( height > 1081 ) {
+    } else if ( height > 1021  ) {
         $('section#fbsection5').removeClass();
         $('section#fbsection5').addClass('p110');
-    }
+
+    } 
 });
 
 $(window).resize(function() {
     var height = $(window).height();
     
-    if( height < 560 ) {
+    if( height > 560 && height < 640 ) {
         $('section#fbsection5').removeClass();
         $('section#fbsection5').addClass('p200');
-    
-    } else if( height > 561 && height < 620 ) {
-        $('section#fbsection5').removeClass();
-        $('section#fbsection5').addClass('p190');
 
-    } else if (height > 621 && height < 780 ) {
+    } else if (height > 641 && height < 700 ) {
         $('section#fbsection5').removeClass();
         $('section#fbsection5').addClass('p180');
 
-    } else if ( height > 781 && height < 840 ) {
+    } else if (height > 701 && height < 780 ) {
         $('section#fbsection5').removeClass();
-        $('section#fbsection5').addClass('p170');
+        $('section#fbsection5').addClass('p160');
 
-    } else if ( height > 841 && height < 900 ) {
+    } else if ( height > 781 && height < 840 ) {
         $('section#fbsection5').removeClass();
         $('section#fbsection5').addClass('p150');
 
-    } else if ( height > 901 && height < 960 ) {
+    } else if ( height > 841 && height < 900 ) {
         $('section#fbsection5').removeClass();
         $('section#fbsection5').addClass('p140');
 
-    } else if ( height > 961 && height < 1020 ) {
+    } else if ( height > 901 && height < 960 ) {
         $('section#fbsection5').removeClass();
         $('section#fbsection5').addClass('p130');
 
-    } else if ( height > 1021 && height < 1080 ) {
+    } else if ( height > 961 && height < 1020 ) {
         $('section#fbsection5').removeClass();
         $('section#fbsection5').addClass('p120');
 
-    } else if ( height > 1081 ) {
+    } else if ( height > 1021  ) {
         $('section#fbsection5').removeClass();
         $('section#fbsection5').addClass('p110');
-    }
+
+    } 
 });
 /*
  * debouncedresize: special jQuery event that happens once after a window resize
