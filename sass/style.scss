@@ -860,10 +860,6 @@ a.zoomable {
 }
 
 .lt-ie9 {
-	#bg_left,
-	#bg_right {
-		display: none;
-	}
 	.container {
 		background-size: 100% auto;
 		background-repeat: repeat;
@@ -952,6 +948,12 @@ a.zoomable {
 			top: 481px;
 			width: 50%;
 			z-index: 0;
+		}
+	}
+	#fbsection4 .content-layer {
+		#bg_left,
+		#bg_right {
+			display: none;
 		}
 	}
 	#fbsection5 ul {
